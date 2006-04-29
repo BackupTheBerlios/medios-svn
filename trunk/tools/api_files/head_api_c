@@ -1,0 +1,42 @@
+/*
+*   kernel/lib/api.c
+*
+*   MediOS project
+*   Copyright (c) 2005 by Christophe THOMAS (oxygen77 at free.fr)
+*
+* All files in this archive are subject to the GNU General Public License.
+* See the file COPYING in the source tree root for full license agreement.
+* This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
+* KIND, either express of implied.
+*/
+
+#include <api.h>
+#include <kernel/swi.h>
+#include <kernel/errors.h>
+
+#define swi_call(SWI_NUM)                \
+    ({                                   \
+        register long _r0 asm("r0");     \
+        asm volatile(                    \
+            "stmdb sp!, {r3-r5} \n"     \
+            "swi %0\n"                   \
+            "ldmia sp!, {r3-r5}"        \
+        :                                \
+        : "i"(SWI_NUM)                   \
+        : "memory");                     \
+        return (long) _r0;               \
+    })    
+
+unsigned int api_getFctPtr(char * name)    { swi_call(nAPI_INIAPI); }
+
+long __modsi3(long a, long b)  { return float_modsi3(a,b);}
+long __umodsi3(long a, long b) { return float_umodsi3(a,b);}
+long __divsi3(long a, long b)  { return float_divsi3(a,b);}
+long __udivsi3(long a, long b) { return float_udivsi3(a,b);}
+unsigned int __divdi3(unsigned int a, unsigned int b) { return float_divdi3(a,b);}
+
+void * malloc(unsigned int size) { return do_malloc(size,1); }
+void * realloc(void *buffer, unsigned int newsize) { return do_realloc(buffer,newsize,1); }
+
+void ini_api(void)
+{

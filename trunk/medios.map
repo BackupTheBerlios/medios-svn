@@ -1,0 +1,2448 @@
+Archive member included because of file (symbol)
+
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS)
+                              kernel/build/fat.o (__udivsi3)
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divsi3.oS)
+                              kernel/build/console.o (__divsi3)
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_umodsi3.oS)
+                              kernel/build/fat.o (__umodsi3)
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_modsi3.oS)
+                              kernel/build/libfloat.o (__modsi3)
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_dvmd_lnx.oS)
+                              /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS) (__div0)
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS)
+                              kernel/build/libfloat.o (__divdi3)
+/usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_clz.oS)
+                              /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+tmp                 0x105             kernel/build/menu.o
+screen_VID1         0x26828           kernel/build/graphics.o
+font_table          0x58              kernel/build/font.o
+screen_VID2         0x26828           kernel/build/graphics.o
+MsgBox_ErrorBitmap  0x4               kernel/build/msgBox.o
+gui_ls_dwBitmap     0x4               kernel/build/gui_fct.o
+buffers             0x18              kernel/build/graphics.o
+pool_start          0x4               kernel/build/malloc.o
+___strtok           0x4               kernel/build/string.o
+con_lastUpdateEndY  0x4               kernel/build/console.o
+pos                 0x4               kernel/build/menu.o
+gui_ls_textBitmap   0x4               kernel/build/gui_fct.o
+st_fwExtIcon        0x4               kernel/build/status_line.o
+root_node           0x4               kernel/build/vfs.o
+evt                 0xc               kernel/build/evt.o
+con_bufferEnd       0x4               kernel/build/console.o
+evt_handler         0x4               kernel/build/gui_fct.o
+gui_ls_upBitmap     0x4               kernel/build/gui_fct.o
+con_numCols         0x4               kernel/build/console.o
+fontVal             0x4               kernel/build/msgBox.o
+lcdOnOff_timer      0x18              kernel/build/bat_power.o
+con_numLines        0x4               kernel/build/console.o
+first_free          0x4               kernel/build/malloc.o
+current_menu        0x4               kernel/build/menu.o
+trap_stack          0x400             kernel/build/trap_fct.o
+value_buff          0xfb              kernel/build/main_menu.o
+fat_cache_sectors   0x4000            kernel/build/fat_lowLevel.o
+evt_hand            0x4               kernel/build/main_menu.o
+hd_timer            0x18              kernel/build/bat_power.o
+need_clean          0x4               kernel/build/buttons.o
+CURSOR_1            0x2c              kernel/build/graphics.o
+txt_x               0x4               kernel/build/virtKbd.o
+st_usbIcon          0x4               kernel/build/status_line.o
+evt_pipe_tab        0x280a0           kernel/build/evt.o
+con_buffer          0x10000           kernel/build/console.o
+file                0x4               kernel/build/parse_cfg.o
+cur_str             0x15              kernel/build/virtKbd.o
+menu_plug           0x4               kernel/build/main_menu.o
+MsgBox_ExclamationBitmap
+                    0x4               kernel/build/msgBox.o
+st_powerIcon        0x4               kernel/build/status_line.o
+BITMAP_1            0x2c              kernel/build/graphics.o
+screen_BMAP2        0x9a28            kernel/build/graphics.o
+MsgBox_WarningBitmap
+                    0x4               kernel/build/msgBox.o
+txt_y               0x4               kernel/build/virtKbd.o
+evt_timer           0x18              kernel/build/evt.o
+fat_cache           0x200             kernel/build/fat_lowLevel.o
+dirty_list          0x4               kernel/build/vfs.o
+gui_ls_mp3Bitmap    0x4               kernel/build/gui_fct.o
+st_mediosLogo       0x4               kernel/build/status_line.o
+screen_BMAP1        0x9a28            kernel/build/graphics.o
+jselect             0x4               kernel/build/menu.o
+cfg_line_num        0x4               kernel/build/parse_cfg.o
+gui_ls_imageBitmap  0x4               kernel/build/gui_fct.o
+cache_list          0x1450            kernel/build/fat.o
+item_buff           0xfb              kernel/build/main_menu.o
+pselect             0x4               kernel/build/menu.o
+browseData          0x4               kernel/build/main_menu.o
+kpwrState           0x4               kernel/build/bat_power.o
+VIDEO_1             0x2c              kernel/build/graphics.o
+con_screenEnd       0x4               kernel/build/console.o
+readdir_buf         0x600             kernel/build/fat.o
+con_bufferStart     0x4               kernel/build/console.o
+opened_node         0x4               kernel/build/vfs.o
+CURSOR_2            0x2c              kernel/build/graphics.o
+nselect             0x4               kernel/build/menu.o
+iselect             0x4               kernel/build/menu.o
+MsgBox_QuestionBitmap
+                    0x4               kernel/build/msgBox.o
+kfw_state           0x4               kernel/build/usb_fw.o
+UART_PIPES          0x8010            kernel/build/uart.o
+con_lastUpdateScreenEnd
+                    0x4               kernel/build/console.o
+con_screenVisible   0x4               kernel/build/console.o
+st_cfIcon           0x4               kernel/build/status_line.o
+kusb_state          0x4               kernel/build/usb_fw.o
+coord_horiz         0x30              kernel/build/virtKbd.o
+con_gfxBuffer       0x4               kernel/build/console.o
+res                 0x4               kernel/build/msgBox.o
+MsgBox_InformationBitmap
+                    0x4               kernel/build/msgBox.o
+gui_ls_dirBitmap    0x4               kernel/build/gui_fct.o
+halt_timer          0x18              kernel/build/bat_power.o
+BITMAP_2            0x2c              kernel/build/graphics.o
+coord_vert          0x30              kernel/build/virtKbd.o
+VIDEO_2             0x2c              kernel/build/graphics.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+DRAM             0x00f00000         0x01000000
+IRAM             0x00000004         0x000037fc
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x00f00000    0x15744
+ *(.text.init)
+ .text.init     0x00f00000       0x98 kernel/build/boot.o
+                0x00f00000                kernel_entry
+ *(.text)
+ .text          0x00f00098      0x440 kernel/build/ata.o
+                0x00f0049c                ata_status
+                0x00f004b8                ata_selectHD
+                0x00f004d4                ide_intAction
+                0x00f00370                ata_stopHD
+                0x00f004bc                ata_selectCF
+                0x00f004c0                ata_init
+                0x00f004b4                ata_powerDownHD
+                0x00f004ac                ata_resetHD
+                0x00f0042c                ata_waitForXfer
+                0x00f00464                ata_waitForReady
+                0x00f0041c                ata_sofReset
+                0x00f00098                ata_rwData
+                0x00f004b0                ata_powerUpHD
+                0x00f00344                ata_sleep
+                0x00f003d8                ata_stopHDEnd
+ .text          0x00f004d8      0x690 kernel/build/bat_power.o
+                0x00f004d8                lcd_setBrightness
+                0x00f00830                hd_timer_fct
+                0x00f005f0                get_timer_status
+                0x00f006c4                lcd_timer_action
+                0x00f0096c                process_DC_change
+                0x00f008c0                hd_timer_off
+                0x00f00788                lcd_keyPress
+                0x00f00574                set_timer_delay
+                0x00f00754                halt_timer_action
+                0x00f007b8                hd_launchTimer
+                0x00f00a08                init_power
+                0x00f009e8                DC_isConnected
+                0x00f0064c                lcd_launchTimer
+                0x00f00600                lcd_set_state
+                0x00f00884                hd_timer_on
+                0x00f0063c                lcd_get_state
+                0x00f008b0                hd_timer_state
+                0x00f0057c                get_timer_status_freq
+                0x00f005f8                get_timer_delay
+                0x00f006f0                halt_launchTimer
+                0x00f0056c                set_timer_status
+                0x00f00954                getCurrentTimer
+                0x00f00a00                batLevel
+                0x00f004f8                set_timer_status_freq
+                0x00f008e0                chgTimer
+                0x00f004e8                lcd_getBrightness
+ .text          0x00f00b68      0x558 kernel/build/bflat.o
+                0x00f00b68                load_bflat
+ .text          0x00f010c0        0x8 kernel/build/bkpt.o
+                0x00f010c0                do_bkpt
+ .text          0x00f010c8       0xb4 kernel/build/buttons.o
+                0x00f010c8                btn_init
+ .text          0x00f0117c      0x874 kernel/build/console.o
+                0x00f018b4                con_write
+                0x00f01798                con_screenScroll
+                0x00f0181c                con_clear
+                0x00f01964                con_init
+                0x00f01788                con_screenIsVisible
+                0x00f01494                con_screenUpdate
+                0x00f016f8                con_screenSwitch
+ .text          0x00f019f0      0x158 kernel/build/cpld.o
+                0x00f01ad0                cpld_doSelect
+                0x00f01a80                cpld_read
+                0x00f01a94                cpld_select
+                0x00f019f0                cpld_init
+                0x00f01b44                cpld_getVersion
+                0x00f01a34                cpld_changeState
+ .text          0x00f01b48       0x3c kernel/build/delay.o
+                0x00f01b48                udelay
+ .text          0x00f01b84      0x4b0 kernel/build/disk.o
+                0x00f01c04                disk_umount
+                0x00f01e2c                disk_identify
+                0x00f01f2c                disk_printPartInfo
+                0x00f01b84                disk_init
+                0x00f01fb8                dd_findEnd
+                0x00f01f7c                dd_swapChar
+                0x00f01bc4                disk_mount
+                0x00f01c38                disk_setup
+ .text          0x00f02034      0x390 kernel/build/dsp.o
+                0x00f0208c                dsp_off
+                0x00f02034                dsp_on
+                0x00f020cc                dsp_clear
+                0x00f021f8                load_dsp_program_mem
+                0x00f023a0                c54_dsp_interrupt
+                0x00f020ec                dsp_reset
+                0x00f02128                dsp_run
+                0x00f02164                load_dsp_program_hdd
+ .text          0x00f023c4      0x324 kernel/build/evt.o
+                0x00f023c4                evt_getHandler
+                0x00f025c0                evt_purgeHandler
+                0x00f0260c                evt_timer_action
+                0x00f02644                evt_init
+                0x00f02528                evt_getFullStatus
+                0x00f025a0                evt_getStatus
+                0x00f024bc                evt_send
+                0x00f02460                evt_freeHandler
+ .text          0x00f026e8      0x540 kernel/build/evt_handle_fct.o
+                0x00f026e8                browserEvt
+ .text          0x00f02c28       0x80 kernel/build/exit.o
+                0x00f02c28                halt_device
+                0x00f02c90                reload_firmware
+ .text          0x00f02ca8     0x1b40 kernel/build/fat.o
+                0x00f037f0                fat_closeWrite
+                0x00f03bec                fat_readdir
+                0x00f03280                fat_addDirEntry
+                0x00f02dac                fat_unmount
+                0x00f047dc                fat_attribute
+                0x00f045d0                fat_freeDirEntries
+                0x00f0386c                fat_readWrite
+                0x00f0419c                fat_fileOpen
+                0x00f02ca8                fat_mount
+                0x00f04270                fat_createFile
+                0x00f04760                fat_fileRemove
+                0x00f042e4                fat_fileSync
+                0x00f042f4                fat_fileReadWrite
+                0x00f0377c                fat_truncate
+                0x00f03e68                fat_loadDir
+                0x00f03fe0                fat_fileSize
+                0x00f04110                fat_fileFlushCache
+                0x00f04234                fat_fileClose
+                0x00f03fec                fat_fileTruncate
+                0x00f02e04                fat_writeLongName
+                0x00f03af4                fat_seek
+                0x00f045c8                fat_fileRead
+                0x00f045c0                fat_fileWrite
+                0x00f04040                fat_fileSeek
+                0x00f03620                fat_updateShortEntry
+ .text          0x00f047e8     0x1440 kernel/build/fat_lowLevel.o
+                0x00f05240                fat_updateFsInfo
+                0x00f055d4                fat_time
+                0x00f05934                fat_nextWriteCluster
+                0x00f05734                fat_createDosName
+                0x00f059fc                fat_transfer
+                0x00f04d24                fat_recalcFree
+                0x00f050d4                fat_findFreeCluster
+                0x00f047e8                fat_cluster2Sec
+                0x00f05568                fat_flushFat
+                0x00f05528                fat_getNextCluster
+                0x00f05b00                fat_unicode2Iso
+                0x00f05be0                fat_init
+                0x00f0484c                fat_initDevice
+                0x00f056b8                fat_char2Dos
+                0x00f057e8                fat_parseDirEntry
+                0x00f04e44                fat_bpbIsSane
+                0x00f05300                fat_updateFatEntry
+                0x00f04f1c                fat_flushFatSector
+                0x00f054a4                fat_readFatEntry
+                0x00f04fdc                fat_cacheFatSector
+ .text          0x00f05c28      0x234 kernel/build/file_type.o
+                0x00f05de0                get_file_type
+                0x00f05d1c                is_text_type
+                0x00f05cf0                is_mp3_type
+                0x00f05c28                is_med_type
+                0x00f05c80                is_image_type
+                0x00f05c54                is_gb_type
+ .text          0x00f05e5c       0x8c kernel/build/font.o
+                0x00f05e5c                fnt_init
+ .text          0x00f05ee8      0xc28 kernel/build/graphics.o
+                0x00f06718                gfx_drawPixel
+                0x00f06940                gfx_putC
+                0x00f0682c                gfx_putS
+                0x00f06180                gfx_kdrawLine
+                0x00f06510                gfx_planeGetState
+                0x00f06a04                gfx_drawBitmap
+                0x00f064a0                gfx_planeShow
+                0x00f064fc                gfx_planeSetState
+                0x00f06154                gfx_restoreAllComponents
+                0x00f066d0                gfx_clearScreen
+                0x00f06778                gfx_drawRect
+                0x00f066b0                gfx_planeSetBufferOffset
+                0x00f06444                gfx_setPlane
+                0x00f067f8                gfx_drawLine
+                0x00f06aec                gfx_setPalletteRGB
+                0x00f069b8                gfx_drawSprite
+                0x00f065c0                gfx_planeGetSize
+                0x00f06614                gfx_planeSetPos
+                0x00f06660                gfx_planeGetPos
+                0x00f06af0                gfx_fontSet
+                0x00f0631c                gfx_openGraphics
+                0x00f06a9c                gfx_scrollWindowHoriz
+                0x00f06a4c                gfx_scrollWindowVert
+                0x00f05f80                gfx_init
+                0x00f067b8                gfx_fillRect
+                0x00f060d8                gfx_restoreComponent
+                0x00f06454                gfx_getPlane
+                0x00f06b00                gfx_fontGet
+                0x00f0669c                gfx_planeGetBufferOffset
+                0x00f068a4                gfx_getStringSize
+                0x00f0603c                gfx_initComponent
+                0x00f05ee8                init_buffer_data
+                0x00f064e8                gfx_planeIsShown
+                0x00f06524                gfx_planeSetSize
+                0x00f06464                gfx_planeHide
+                0x00f06748                gfx_readPixel
+                0x00f06440                gfx_closeGraphics
+ .text          0x00f06b10      0x81c kernel/build/graphics_32.o
+                0x00f06db4                graphics32_DrawBITMAP
+                0x00f071f0                graphics32_DrawChar
+                0x00f06e84                graphics32_ScrollWindowVert
+                0x00f06f70                graphics32_ScrollWindowHoriz
+                0x00f072c0                graphics32_DrawString
+                0x00f06b34                graphics32_ReadPixel
+                0x00f06c38                graphics32_DrawHLine
+                0x00f06cc4                graphics32_DrawSprite
+                0x00f06c64                graphics32_DrawVLine
+                0x00f06bdc                graphics32_FillRect
+                0x00f06cac                graphics32_DrawHorizLine
+                0x00f06b58                graphics32_DrawRect
+                0x00f06b10                graphics32_DrawPixel
+ .text          0x00f0732c      0x7fc kernel/build/graphics_8.o
+                0x00f07378                graphics8_DrawRect
+                0x00f076b0                graphics8_ScrollWindowVert
+                0x00f07480                graphics8_DrawVLine
+                0x00f075d8                graphics8_DrawBITMAP
+                0x00f073f8                graphics8_FillRect
+                0x00f074c8                graphics8_DrawHorizLine
+                0x00f07a38                graphics8_DrawString
+                0x00f074e0                graphics8_DrawSprite
+                0x00f0732c                graphics8_DrawPixel
+                0x00f07350                graphics8_ReadPixel
+                0x00f07454                graphics8_DrawHLine
+                0x00f0777c                graphics8_ScrollWindowHoriz
+                0x00f07968                graphics8_DrawChar
+ .text          0x00f07b28       0x64 kernel/build/gui.o
+                0x00f07b60                gui_sendEvt
+                0x00f07b28                gui_start
+ .text          0x00f07b8c      0x684 kernel/build/gui_fct.o
+                0x00f080e0                printAllName
+                0x00f07c88                viewNewDir
+                0x00f07b8c                iniBrowser
+                0x00f07e80                redrawBrowser
+                0x00f07ef4                printName
+                0x00f07e38                browser_simpleBrowse
+                0x00f07eac                clearBrowser
+                0x00f081e8                printAName
+                0x00f07d7c                browser_browse
+ .text          0x00f08210      0x898 kernel/build/i2c.o
+                0x00f086b0                i2c_inb
+                0x00f08a40                i2c_writeRaw
+                0x00f084e4                i2c_notAck
+                0x00f0826c                wait_i2c
+                0x00f08778                i2c_outb
+                0x00f089bc                i2c_write
+                0x00f083d8                i2c_ack
+                0x00f08210                i2c_ini_xfer
+                0x00f085b8                i2c_getAck
+                0x00f08284                i2c_start
+                0x00f08324                i2c_stop
+                0x00f08910                i2c_read
+                0x00f08844                mas_i2c_outb
+ .text          0x00f08aa8      0x654 kernel/build/icons.o
+                0x00f08aa8                loadIcon
+                0x00f08de4                addIcon
+                0x00f08f34                iniIcon
+                0x00f08ebc                getIcon
+ .text          0x00f090fc      0x3e0 kernel/build/irq.o
+                0x00f0940c                irq_print
+                0x00f09228                __clf
+                0x00f092a8                irq_enable
+                0x00f09320                irq_changeHandler
+                0x00f091e0                __cli
+                0x00f091bc                __sti
+                0x00f0915c                stf
+                0x00f09204                __stf
+                0x00f09130                cli
+                0x00f09264                irq_disable
+                0x00f0924c                irq_init
+                0x00f090fc                sti
+                0x00f09190                clf
+ .text          0x00f094dc       0x28 kernel/build/kdelay.o
+                0x00f094dc                mdelay
+ .text          0x00f09504       0x24 kernel/build/kernel.o
+                0x00f0950c                getResolution
+                0x00f09504                getArch
+ .text          0x00f09528       0x14 kernel/build/libfloat.o
+                0x00f09530                float_divsi3
+                0x00f0952c                float_umodsi3
+                0x00f09528                float_modsi3
+                0x00f09534                float_udivsi3
+                0x00f09538                float_divdi3
+ .text          0x00f0953c      0x6ec kernel/build/ls_fct.o
+                0x00f095d8                cleanList
+                0x00f097b8                doLs
+                0x00f09a0c                isRoot
+                0x00f096b0                qSortEntry
+                0x00f0953c                namesort
+                0x00f09988                upDir
+                0x00f09ae8                clearSelection
+                0x00f09b98                nbSelected
+                0x00f09658                ini_lists
+                0x00f09b1c                chgSelect
+                0x00f09bcc                nxtSelect
+                0x00f09a38                inDir
+                0x00f096d4                addEntry
+ .text          0x00f09c28      0x368 kernel/build/ls_main.o
+                0x00f09e84                clear_status
+                0x00f09c28                printList
+                0x00f09eb0                createSizeString
+                0x00f09db4                draw_bottom_status
+                0x00f09d10                browser_disposeBrowse
+                0x00f09cd8                browser_NewBrowse
+                0x00f09d28                draw_file_size
+ .text          0x00f09f90      0x1bc kernel/build/main.o
+                0x00f09fb4                tst_fct
+                0x00f09f90                print_boot_info
+                0x00f0a06c                kernel_start
+ .text          0x00f0a14c      0xb80 kernel/build/main_menu.o
+                0x00f0ac60                mainMenu_print
+                0x00f0a220                mainMenu_doF2
+                0x00f0a67c                mainMenu_clean
+                0x00f0a7fc                mainMenu_addItem
+                0x00f0a450                mainMenu_loop
+                0x00f0a158                mainMenu_doAction
+                0x00f0a434                mainMenu_start
+                0x00f0aa64                mainMenu_doAddBackEntry
+                0x00f0a4b4                mainMenu_ini
+                0x00f0ab9c                mainMenu_load
+                0x00f0a360                mainMenu_mkSubmenuStr
+                0x00f0a414                mainMenu_mkItemIcon
+                0x00f0a87c                mainMenu_parse
+                0x00f0a3ac                mainMenu_mkItemStr
+                0x00f0a14c                mainMenu_doOff
+                0x00f0a858                mainMenu_cleanCfg
+                0x00f0a750                mainMenu_insertItem
+                0x00f0a3e8                mainMenu_mkSubIcon
+                0x00f0a6b0                mainMenu_newItem
+                0x00f0a224                mainMenu_doF3
+                0x00f0a21c                mainMenu_doF1
+                0x00f0a154                mainMenu_doOn
+                0x00f0a6fc                mainMenu_findParent
+                0x00f0ab68                mainMenu_dispose
+ .text          0x00f0accc      0x86c kernel/build/malloc.o
+                0x00f0acd4                do_malloc
+                0x00f0b368                mem_stat
+                0x00f0b324                mem_printStat
+                0x00f0accc                malloc
+                0x00f0adc8                do_realloc
+                0x00f0b2f0                mem_addPool
+                0x00f0b4b8                mem_freeList
+                0x00f0adc0                realloc
+                0x00f0b264                free_user
+                0x00f0adb8                user_realloc
+                0x00f0ae30                free
+ .text          0x00f0b538      0xa38 kernel/build/med.o
+                0x00f0b584                test_section
+                0x00f0b5d0                med_load
+                0x00f0b5f0                med_loadParam
+                0x00f0b538                cmp_string
+ *fill*         0x00f0bf70       0x10 00
+ .text          0x00f0bf80       0x40 kernel/build/memchr.o
+                0x00f0bf80                memchr
+ .text          0x00f0bfc0       0xa0 kernel/build/memzero.o
+                0x00f0bfe0                __memzero
+ .text          0x00f0c060     0x18f0 kernel/build/menu.o
+                0x00f0cdf4                getMaxNxtLine
+                0x00f0c658                normMenu_handler
+                0x00f0cd48                getMaxPrevLine
+                0x00f0d8a0                doPrint
+                0x00f0c19c                dispName_icon
+                0x00f0c060                dispName_norm
+                0x00f0c618                stop_menu
+                0x00f0cce0                getPrevLine
+                0x00f0c47c                dispAllName_icon
+                0x00f0c638                menu_EvtHandler
+                0x00f0c3d4                dispAllName_norm
+                0x00f0ce38                iconMenu_handler
+                0x00f0cd8c                getNxtLine
+                0x00f0c590                start_menu
+                0x00f0c51c                dispAName_norm
+ .text          0x00f0d950      0x71c kernel/build/msgBox.o
+                0x00f0db14                drawMsgBox
+                0x00f0da80                iniMsgBox
+                0x00f0dfe0                eraseMsgBox
+                0x00f0e008                msgBox
+                0x00f0d950                msgBoxEvtHandler
+ .text          0x00f0e06c      0x56c kernel/build/osd.o
+                0x00f0e420                osd_setComponentSize
+                0x00f0e108                osd_setCursor2Bitmap
+                0x00f0e248                osd_setPaletteRGB
+                0x00f0e458                osd_setComponentSourceWidth
+                0x00f0e3b0                osd_setAltOffset
+                0x00f0e14c                osd_setMainConfig
+                0x00f0e16c                osd_setMainShift
+                0x00f0e3d0                osd_setComponentOffset
+                0x00f0e46c                osd_setComponentConfig
+                0x00f0e4d4                osd_restorePlane
+                0x00f0e130                osd_setBorderColor
+                0x00f0e180                osd_setEntirePalette
+                0x00f0e2e4                osd_setPalette
+                0x00f0e5d4                osd_init
+                0x00f0e350                osd_set16CPalette
+                0x00f0e06c                osd_RGB2Packed
+                0x00f0e43c                osd_setComponentPosition
+ .text          0x00f0e5d8      0x510 kernel/build/parse_cfg.o
+                0x00f0e910                openFile
+                0x00f0e5d8                feof
+                0x00f0e98c                write_cfg
+                0x00f0e5e8                next_char
+                0x00f0e840                nxt_cfg
+                0x00f0ea54                write_comment
+                0x00f0ead8                curLineNum
+                0x00f0e650                again
+                0x00f0e97c                closeFile
+                0x00f0eab0                add_line
+                0x00f0e660                nxt_token
+ .text          0x00f0eae8       0xbc kernel/build/pipes.o
+                0x00f0eb38                pipeRead
+                0x00f0eae8                pipeWrite
+ .text          0x00f0eba4      0x238 kernel/build/printk.o
+                0x00f0ed00                print_data
+                0x00f0ebe8                printf
+                0x00f0ec50                vprintf
+                0x00f0eba4                printk
+                0x00f0ecac                print_nonhexa
+ .text          0x00f0eddc      0x884 kernel/build/qsort.o
+                0x00f0eddc                qsort
+ .text          0x00f0f660      0x230 kernel/build/random.o
+                0x00f0f814                rand
+                0x00f0f660                srand
+ .text          0x00f0f890      0x86c kernel/build/rtc.o
+                0x00f0f890                is_leap_year
+                0x00f0f9cc                rtc_getTime
+                0x00f0f910                getDayOfWeek
+                0x00f0fb20                rtc_setTime
+                0x00f0fef0                init_rtc
+ .text          0x00f100fc      0x278 kernel/build/scrollbar.o
+                0x00f100fc                draw_scrollBar
+ .text          0x00f10374        0x8 kernel/build/stack.o
+                0x00f10374                get_sp
+ .text          0x00f1037c      0x7f8 kernel/build/status_line.o
+                0x00f10a98                statusBar_ini
+                0x00f1080c                drawGui
+                0x00f1037c                drawTime
+                0x00f1066c                drawStatus
+                0x00f10484                drawBat
+                0x00f107f4                drawLogo
+                0x00f10908                statusLine_EvtHandler
+ *fill*         0x00f10b74        0xc 00
+ .text          0x00f10b80       0x40 kernel/build/strchr.o
+                0x00f10b80                strchr
+ .text          0x00f10bc0      0x868 kernel/build/string.o
+                0x00f10f48                strcpy
+                0x00f11398                memscan
+                0x00f11254                strtok_r
+                0x00f10bc0                strlwr
+                0x00f10df8                strncasecmp
+                0x00f110d8                strnlen
+                0x00f10f9c                strcat
+                0x00f113bc                strstr
+                0x00f1106c                strncmp
+                0x00f10f68                strncpy
+                0x00f10d64                strcasecmp
+                0x00f11334                bcopy
+                0x00f111d0                strtok
+                0x00f11360                memcmp
+                0x00f10fd4                strncat
+                0x00f10d30                strdup
+                0x00f1103c                strcmp
+                0x00f112fc                strsep
+                0x00f10ebc                strnicmp
+                0x00f10bf0                atoi
+                0x00f11118                strspn
+                0x00f110b4                strlen
+                0x00f11184                strpbrk
+ *fill*         0x00f11428       0x18 00
+ .text          0x00f11440       0x40 kernel/build/strrchr.o
+                0x00f11440                strrchr
+ .text          0x00f11480       0x84 kernel/build/swi.o
+                0x00f1148c                swi_handler
+                0x00f11480                badFctName
+ .text          0x00f11504       0x80 kernel/build/ti_wdt.o
+                0x00f11554                wdt_stop
+                0x00f11504                wdt_init
+                0x00f11570                wdt_start
+                0x00f11520                wdt_setup
+ .text          0x00f11584      0x160 kernel/build/timer.o
+                0x00f11674                tmr_print
+                0x00f11584                tmr_getTick
+                0x00f115c0                tmr_remove
+                0x00f115f4                tmr_stop
+                0x00f11594                tmr_setup
+                0x00f11600                tmr_start
+                0x00f11624                tmr_init
+ .text          0x00f116e4       0x48 kernel/build/trap_fct.o
+                0x00f11708                do_trap_data
+                0x00f116e4                do_trap_undef
+                0x00f11714                do_trap_addrexcptn
+                0x00f116f0                do_trap_swi
+                0x00f116fc                do_trap_prefetch
+                0x00f11720                print_wdt
+ .text          0x00f1172c      0x13c kernel/build/uart.o
+                0x00f1177c                uart_outString
+                0x00f117f4                uart_init
+                0x00f117dc                uart_restoreIrqHandler
+                0x00f1172c                uart_in
+                0x00f11758                uart_out
+ .text          0x00f11868      0x158 kernel/build/usb_fw.o
+                0x00f11868                usbFwEnabled
+                0x00f11950                FW_isConnected
+                0x00f11928                enableUsbFw
+                0x00f11938                usb_isConnected
+                0x00f11930                disableUsbFw
+                0x00f11958                init_usb_fw
+                0x00f11878                setUsbFw
+ .text          0x00f119c0      0x228 kernel/build/vfs.o
+                0x00f119c0                vfs_init
+                0x00f11bbc                vfs_hasOpenNode
+                0x00f119ec                vfs_mount
+                0x00f11a74                vfs_Destructor
+                0x00f11af8                vfs_clearNodeTree
+                0x00f11b64                vfs_PrintOpenList
+                0x00f11bd4                vfs_rootPrint
+ .text          0x00f11be8      0x328 kernel/build/vfs_dops.o
+                0x00f11e44                readdir
+                0x00f11be8                opendir
+                0x00f11dac                closedir
+                0x00f11ef8                mkdir
+ .text          0x00f11f10      0x5b8 kernel/build/vfs_fops.o
+                0x00f12380                truncate
+                0x00f123e0                lseek
+                0x00f123a8                write
+                0x00f124b4                filesize
+                0x00f123cc                read
+                0x00f1249c                ftell
+                0x00f12258                fsync
+                0x00f11f10                open
+                0x00f122e0                close
+ .text          0x00f124c8      0x580 kernel/build/vfs_node.o
+                0x00f124c8                vfs_nodePrintTree
+                0x00f12640                vfs_nodeLookup
+                0x00f129d0                vfs_nodeClearDirty
+                0x00f12858                vfs_nodeRef
+                0x00f12984                vfs_nodeSetDirty
+                0x00f12890                vfs_nodeUnRef
+                0x00f12598                vfs_nodeInitChild
+                0x00f128c8                vfs_rmNodeFromTree
+ .text          0x00f12a48      0x1d0 kernel/build/vfs_pathname.o
+                0x00f12b18                vfs_pathnameSplit
+                0x00f12b80                vfs_pathnameIsEq
+                0x00f12ab0                vfs_pathnameEatNonSlashes
+                0x00f12a48                vfs_pathnameEatSlashes
+ .text          0x00f12c18      0xb70 kernel/build/virtKbd.o
+                0x00f13008                drawTxtZone
+                0x00f1307c                drawBtn
+                0x00f13378                leftCursor
+                0x00f133f4                virtKbdEvtHandler
+                0x00f13724                iniSprite
+                0x00f131f8                gfx_putSelect
+                0x00f12ec4                drawVert
+                0x00f132f8                putCursor
+                0x00f13748                virtKbd
+                0x00f131c8                drawPage
+                0x00f133b0                rightCursor
+                0x00f12c18                calcCoord
+                0x00f12d80                drawHoriz
+ .text          0x00f13788     0x141c kernel/build/vsprintf.o
+                0x00f1446c                vsprintf
+                0x00f13954                simple_strtoll
+                0x00f1444c                snprintf
+                0x00f13834                simple_strtol
+                0x00f144a0                vsscanf
+                0x00f13e48                vsnprintf
+                0x00f14b84                sscanf
+                0x00f14480                sprintf
+                0x00f13788                simple_strtoul
+                0x00f13860                simple_strtoull
+ .text          0x00f14ba4       0x64 kernel/target/arch_GMINI4XX/ata.o
+                0x00f14bec                arch_ata_selectHD
+                0x00f14ba4                arch_ata_resetHD
+                0x00f14c04                arch_ide_intAction
+                0x00f14bcc                arch_ata_powerUpHD
+                0x00f14bf4                arch_ata_init
+                0x00f14bf0                arch_ata_selectCF
+                0x00f14bdc                arch_ata_powerDownHD
+ .text          0x00f14c08      0x194 kernel/target/arch_GMINI4XX/buttons.o
+                0x00f14c08                arch_btn_readHardware
+ .text          0x00f14d9c       0x14 kernel/target/arch_GMINI4XX/cpld.o
+                0x00f14d9c                arch_cpld_getVersion
+ .text          0x00f14db0       0x38 kernel/target/arch_GMINI4XX/exit.o
+                0x00f14db0                arch_reload_firmware
+                0x00f14de4                arch_HaltMsg
+ .text          0x00f14de8       0x64 kernel/target/arch_GMINI4XX/irq.o
+                0x00f14de8                arch_irq_init
+ .text          0x00f14e4c       0x24 kernel/target/arch_GMINI4XX/osd.o
+                0x00f14e4c                arch_osd_init
+ .text          0x00f14e70        0x4 kernel/target/arch_GMINI4XX/ti_wdt.o
+                0x00f14e70                arch_wdt_init
+ .text          0x00f14e74       0x5c kernel/target/arch_GMINI4XX/timer.o
+                0x00f14e74                arch_tmr_init
+ .text          0x00f14ed0       0x98 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS)
+                0x00f14ed0                __udivsi3
+ .text          0x00f14f68       0xb0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divsi3.oS)
+                0x00f14f68                __divsi3
+ .text          0x00f15018       0xc0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_umodsi3.oS)
+                0x00f15018                __umodsi3
+ .text          0x00f150d8       0xd4 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_modsi3.oS)
+                0x00f150d8                __modsi3
+ .text          0x00f151ac       0x1c /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_dvmd_lnx.oS)
+                0x00f151ac                __div0
+ .text          0x00f151c8      0x57c /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS)
+                0x00f151c8                __divdi3
+ *(.gnu.linkonce.t.*)
+ *(.glue_7t)
+ *(.glue_7)
+
+.rodata         0x00f15744     0x5b11
+ *(.rodata)
+ .rodata        0x00f15744      0x480 kernel/build/4x6.o
+                0x00f1575c                std4x6_35
+                0x00f15a14                std4x6_184
+                0x00f15abc                std4x6_212
+                0x00f159ba                std4x6_169
+                0x00f157b6                std4x6_50
+                0x00f1597e                std4x6_126
+                0x00f15af8                std4x6_222
+                0x00f15804                std4x6_63
+                0x00f1591e                std4x6_110
+                0x00f15996                std4x6_163
+                0x00f1595a                std4x6_120
+                0x00f15b34                std4x6_232
+                0x00f15bac                std4x6_252
+                0x00f15ace                std4x6_215
+                0x00f15b22                std4x6_229
+                0x00f1581c                std4x6_67
+                0x00f15a68                std4x6_198
+                0x00f15a80                std4x6_202
+                0x00f15b9a                std4x6_249
+                0x00f15af2                std4x6_221
+                0x00f15924                std4x6_111
+                0x00f158be                std4x6_94
+                0x00f15b4c                std4x6_236
+                0x00f157e0                std4x6_57
+                0x00f15954                std4x6_119
+                0x00f157f2                std4x6_60
+                0x00f15816                std4x6_66
+                0x00f15876                std4x6_82
+                0x00f157a4                std4x6_47
+                0x00f15a26                std4x6_187
+                0x00f159c0                std4x6_170
+                0x00f159cc                std4x6_172
+                0x00f15a6e                std4x6_199
+                0x00f158d0                std4x6_97
+                0x00f15b40                std4x6_234
+                0x00f1574a                std4x6_32
+                0x00f158f4                std4x6_103
+                0x00f159e4                std4x6_176
+                0x00f15840                std4x6_73
+                0x00f15762                std4x6_36
+                0x00f15900                std4x6_105
+                0x00f15a44                std4x6_192
+                0x00f15aa4                std4x6_208
+                0x00f15b76                std4x6_243
+                0x00f15990                std4x6_162
+                0x00f15b04                std4x6_224
+                0x00f15828                std4x6_69
+                0x00f15906                std4x6_106
+                0x00f15888                std4x6_85
+                0x00f15a9e                std4x6_207
+                0x00f15b70                std4x6_242
+                0x00f15774                std4x6_39
+                0x00f1594e                std4x6_118
+                0x00f15852                std4x6_76
+                0x00f159f0                std4x6_178
+                0x00f15882                std4x6_84
+                0x00f1578c                std4x6_43
+                0x00f157b0                std4x6_49
+                0x00f158a0                std4x6_89
+                0x00f15b82                std4x6_245
+                0x00f15ba0                std4x6_250
+                0x00f15864                std4x6_79
+                0x00f15ac2                std4x6_213
+                0x00f15942                std4x6_116
+                0x00f159b4                std4x6_168
+                0x00f15786                std4x6_42
+                0x00f15978                std4x6_125
+                0x00f15b64                std4x6_240
+                0x00f15a92                std4x6_205
+                0x00f15a1a                std4x6_185
+                0x00f158ac                std4x6_91
+                0x00f157ce                std4x6_54
+                0x00f15b5e                std4x6_239
+                0x00f15930                std4x6_113
+                0x00f15a86                std4x6_203
+                0x00f15a62                std4x6_197
+                0x00f15a4a                std4x6_193
+                0x00f15780                std4x6_41
+                0x00f1599c                std4x6_164
+                0x00f1589a                std4x6_88
+                0x00f15792                std4x6_44
+                0x00f15960                std4x6_121
+                0x00f15b2e                std4x6_231
+                0x00f159a8                std4x6_166
+                0x00f15894                std4x6_87
+                0x00f1596c                std4x6_123
+                0x00f158b2                std4x6_92
+                0x00f15b1c                std4x6_228
+                0x00f157d4                std4x6_55
+                0x00f159d8                std4x6_174
+                0x00f15a38                std4x6_190
+                0x00f15a20                std4x6_186
+                0x00f15b58                std4x6_238
+                0x00f15a7a                std4x6_201
+                0x00f1585e                std4x6_78
+                0x00f15a32                std4x6_189
+                0x00f15912                std4x6_108
+                0x00f159fc                std4x6_180
+                0x00f15b46                std4x6_235
+                0x00f15b28                std4x6_230
+                0x00f159c6                std4x6_171
+                0x00f158ee                std4x6_102
+                0x00f1584c                std4x6_75
+                0x00f15834                std4x6_71
+                0x00f15b8e                std4x6_247
+                0x00f1576e                std4x6_38
+                0x00f15756                std4x6_34
+                0x00f1587c                std4x6_83
+                0x00f15b16                std4x6_227
+                0x00f157aa                std4x6_48
+                0x00f15a3e                std4x6_191
+                0x00f15aaa                std4x6_209
+                0x00f15b7c                std4x6_244
+                0x00f15a5c                std4x6_196
+                0x00f1598a                std4x6_161
+                0x00f15b0a                std4x6_225
+                0x00f157f8                std4x6_61
+                0x00f15a0e                std4x6_183
+                0x00f15846                std4x6_74
+                0x00f15bb8                std4x6_254
+                0x00f15768                std4x6_37
+                0x00f158e8                std4x6_101
+                0x00f15ada                std4x6_217
+                0x00f1577a                std4x6_40
+                0x00f15afe                std4x6_223
+                0x00f15b6a                std4x6_241
+                0x00f15a98                std4x6_206
+                0x00f15ab6                std4x6_211
+                0x00f158ca                std4x6_96
+                0x00f157ec                std4x6_59
+                0x00f1593c                std4x6_115
+                0x00f15bb2                std4x6_253
+                0x00f15ad4                std4x6_216
+                0x00f159ae                std4x6_167
+                0x00f15972                std4x6_124
+                0x00f15810                std4x6_65
+                0x00f15858                std4x6_77
+                0x00f157c2                std4x6_52
+                0x00f158b8                std4x6_93
+                0x00f157da                std4x6_56
+                0x00f15a8c                std4x6_204
+                0x00f1588e                std4x6_86
+                0x00f15aec                std4x6_220
+                0x00f157bc                std4x6_51
+                0x00f1592a                std4x6_112
+                0x00f159a2                std4x6_165
+                0x00f15966                std4x6_122
+                0x00f157fe                std4x6_62
+                0x00f15936                std4x6_114
+                0x00f15a50                std4x6_194
+                0x00f159d2                std4x6_173
+                0x00f158fa                std4x6_104
+                0x00f15a2c                std4x6_188
+                0x00f158a6                std4x6_90
+                0x00f15b3a                std4x6_233
+                0x00f158dc                std4x6_99
+                0x00f157c8                std4x6_53
+                0x00f159de                std4x6_175
+                0x00f158d6                std4x6_98
+                0x00f15b52                std4x6_237
+                0x00f159ea                std4x6_177
+                0x00f15b94                std4x6_248
+                0x00f15a74                std4x6_200
+                0x00f15870                std4x6_81
+                0x00f15918                std4x6_109
+                0x00f1579e                std4x6_46
+                0x00f15a02                std4x6_181
+                0x00f15a56                std4x6_195
+                0x00f15ab0                std4x6_210
+                0x00f158c4                std4x6_95
+                0x00f157e6                std4x6_58
+                0x00f15ae6                std4x6_219
+                0x00f15948                std4x6_117
+                0x00f15b10                std4x6_226
+                0x00f15984                std4x6_160
+                0x00f15822                std4x6_68
+                0x00f1590c                std4x6_107
+                0x00f15b88                std4x6_246
+                0x00f1582e                std4x6_70
+                0x00f15bbe                std4x6_255
+                0x00f15750                std4x6_33
+                0x00f15a08                std4x6_182
+                0x00f1580a                std4x6_64
+                0x00f15ae0                std4x6_218
+                0x00f15ba6                std4x6_251
+                0x00f158e2                std4x6_100
+                0x00f15ac8                std4x6_214
+                0x00f159f6                std4x6_179
+                0x00f15744                std4x6_0
+                0x00f1586a                std4x6_80
+                0x00f15798                std4x6_45
+                0x00f1583a                std4x6_72
+ .rodata        0x00f15bc4      0x600 kernel/build/5x8.o
+                0x00f15bcc                std5x8_32
+                0x00f16024                std5x8_204
+                0x00f16184                std5x8_248
+                0x00f1614c                std5x8_241
+                0x00f15edc                std5x8_163
+                0x00f15e8c                std5x8_120
+                0x00f15f6c                std5x8_181
+                0x00f15be4                std5x8_35
+                0x00f16034                std5x8_206
+                0x00f16114                std5x8_234
+                0x00f15ffc                std5x8_199
+                0x00f15bc4                std5x8_0
+                0x00f15d54                std5x8_81
+                0x00f15ddc                std5x8_98
+                0x00f15c74                std5x8_53
+                0x00f1612c                std5x8_237
+                0x00f15fbc                std5x8_191
+                0x00f16074                std5x8_214
+                0x00f1605c                std5x8_211
+                0x00f15dcc                std5x8_96
+                0x00f15c64                std5x8_51
+                0x00f15e7c                std5x8_118
+                0x00f15d64                std5x8_83
+                0x00f160ec                std5x8_229
+                0x00f15c0c                std5x8_40
+                0x00f15d04                std5x8_71
+                0x00f160ac                std5x8_221
+                0x00f15e2c                std5x8_108
+                0x00f15fa4                std5x8_188
+                0x00f15eec                std5x8_165
+                0x00f15e9c                std5x8_122
+                0x00f15f7c                std5x8_183
+                0x00f15f8c                std5x8_185
+                0x00f15de4                std5x8_99
+                0x00f15d24                std5x8_75
+                0x00f15c7c                std5x8_54
+                0x00f15c9c                std5x8_58
+                0x00f15e64                std5x8_115
+                0x00f15ce4                std5x8_67
+                0x00f1611c                std5x8_235
+                0x00f15f2c                std5x8_173
+                0x00f1609c                std5x8_219
+                0x00f1600c                std5x8_201
+                0x00f15e84                std5x8_119
+                0x00f15f44                std5x8_176
+                0x00f15c94                std5x8_57
+                0x00f161a4                std5x8_252
+                0x00f160b4                std5x8_222
+                0x00f15e24                std5x8_107
+                0x00f15dfc                std5x8_102
+                0x00f15f54                std5x8_178
+                0x00f15d2c                std5x8_76
+                0x00f15f9c                std5x8_187
+                0x00f15cec                std5x8_68
+                0x00f15f04                std5x8_168
+                0x00f15eb4                std5x8_125
+                0x00f1604c                std5x8_209
+                0x00f15d1c                std5x8_74
+                0x00f16174                std5x8_246
+                0x00f15fdc                std5x8_195
+                0x00f15cb4                std5x8_61
+                0x00f160c4                std5x8_224
+                0x00f15e5c                std5x8_114
+                0x00f15cfc                std5x8_70
+                0x00f15dd4                std5x8_97
+                0x00f15c6c                std5x8_52
+                0x00f15e4c                std5x8_112
+                0x00f161ac                std5x8_253
+                0x00f1618c                std5x8_249
+                0x00f15ed4                std5x8_162
+                0x00f15dc4                std5x8_95
+                0x00f15ecc                std5x8_161
+                0x00f15cdc                std5x8_66
+                0x00f160dc                std5x8_227
+                0x00f15ff4                std5x8_198
+                0x00f1606c                std5x8_213
+                0x00f15c84                std5x8_55
+                0x00f15da4                std5x8_91
+                0x00f16144                std5x8_240
+                0x00f15d14                std5x8_73
+                0x00f15e3c                std5x8_110
+                0x00f1602c                std5x8_205
+                0x00f1607c                std5x8_215
+                0x00f15c44                std5x8_47
+                0x00f15dec                std5x8_100
+                0x00f15cf4                std5x8_69
+                0x00f16104                std5x8_232
+                0x00f15f24                std5x8_172
+                0x00f1608c                std5x8_217
+                0x00f16154                std5x8_242
+                0x00f15f74                std5x8_182
+                0x00f15dac                std5x8_92
+                0x00f15f84                std5x8_184
+                0x00f160e4                std5x8_228
+                0x00f16004                std5x8_200
+                0x00f15d5c                std5x8_82
+                0x00f15d74                std5x8_85
+                0x00f15c1c                std5x8_42
+                0x00f15e34                std5x8_109
+                0x00f15e0c                std5x8_104
+                0x00f15f3c                std5x8_175
+                0x00f15bec                std5x8_36
+                0x00f16094                std5x8_218
+                0x00f15f34                std5x8_174
+                0x00f15ccc                std5x8_64
+                0x00f1616c                std5x8_245
+                0x00f15fd4                std5x8_194
+                0x00f15c54                std5x8_49
+                0x00f15c5c                std5x8_50
+                0x00f15e1c                std5x8_106
+                0x00f15d3c                std5x8_78
+                0x00f15bd4                std5x8_33
+                0x00f16044                std5x8_208
+                0x00f15c4c                std5x8_48
+                0x00f16194                std5x8_250
+                0x00f15fb4                std5x8_190
+                0x00f15efc                std5x8_167
+                0x00f15eac                std5x8_124
+                0x00f160cc                std5x8_225
+                0x00f15d84                std5x8_87
+                0x00f15c2c                std5x8_44
+                0x00f15f0c                std5x8_169
+                0x00f15ebc                std5x8_126
+                0x00f15f64                std5x8_180
+                0x00f15e44                std5x8_111
+                0x00f15fe4                std5x8_196
+                0x00f15d44                std5x8_79
+                0x00f15bdc                std5x8_34
+                0x00f1601c                std5x8_203
+                0x00f16134                std5x8_238
+                0x00f15cc4                std5x8_63
+                0x00f15cac                std5x8_60
+                0x00f15dbc                std5x8_94
+                0x00f160f4                std5x8_230
+                0x00f1610c                std5x8_233
+                0x00f15ec4                std5x8_160
+                0x00f15c04                std5x8_39
+                0x00f15d9c                std5x8_90
+                0x00f15e74                std5x8_117
+                0x00f15fec                std5x8_197
+                0x00f15d7c                std5x8_86
+                0x00f15c24                std5x8_43
+                0x00f15fc4                std5x8_192
+                0x00f15d8c                std5x8_88
+                0x00f15c34                std5x8_45
+                0x00f16054                std5x8_210
+                0x00f15ee4                std5x8_164
+                0x00f15e94                std5x8_121
+                0x00f160d4                std5x8_226
+                0x00f16064                std5x8_212
+                0x00f15f1c                std5x8_171
+                0x00f15d6c                std5x8_84
+                0x00f15bf4                std5x8_37
+                0x00f160a4                std5x8_220
+                0x00f15d94                std5x8_89
+                0x00f16124                std5x8_236
+                0x00f15d34                std5x8_77
+                0x00f15fac                std5x8_189
+                0x00f1613c                std5x8_239
+                0x00f1615c                std5x8_243
+                0x00f15cbc                std5x8_62
+                0x00f16014                std5x8_202
+                0x00f15df4                std5x8_101
+                0x00f160fc                std5x8_231
+                0x00f16084                std5x8_216
+                0x00f15f5c                std5x8_179
+                0x00f15e6c                std5x8_116
+                0x00f15cd4                std5x8_65
+                0x00f15c8c                std5x8_56
+                0x00f15f4c                std5x8_177
+                0x00f160bc                std5x8_223
+                0x00f1619c                std5x8_251
+                0x00f15bfc                std5x8_38
+                0x00f161bc                std5x8_255
+                0x00f15f94                std5x8_186
+                0x00f15e14                std5x8_105
+                0x00f15d0c                std5x8_72
+                0x00f15fcc                std5x8_193
+                0x00f15e04                std5x8_103
+                0x00f1617c                std5x8_247
+                0x00f15db4                std5x8_93
+                0x00f15e54                std5x8_113
+                0x00f15ef4                std5x8_166
+                0x00f15ea4                std5x8_123
+                0x00f16164                std5x8_244
+                0x00f15ca4                std5x8_59
+                0x00f161b4                std5x8_254
+                0x00f15f14                std5x8_170
+                0x00f15c14                std5x8_41
+                0x00f1603c                std5x8_207
+                0x00f15c3c                std5x8_46
+                0x00f15d4c                std5x8_80
+ .rodata        0x00f161c4      0x6c0 kernel/build/6x9.o
+                0x00f166c2                std6x9_206
+                0x00f1663b                std6x9_191
+                0x00f161f1                std6x9_36
+                0x00f16551                std6x9_165
+                0x00f164a6                std6x9_113
+                0x00f16386                std6x9_81
+                0x00f167f4                std6x9_240
+                0x00f1660e                std6x9_186
+                0x00f164b8                std6x9_115
+                0x00f161c4                std6x9_0
+                0x00f16281                std6x9_52
+                0x00f16695                std6x9_201
+                0x00f16350                std6x9_75
+                0x00f1629c                std6x9_55
+                0x00f166e6                std6x9_210
+                0x00f1682a                std6x9_246
+                0x00f1669e                std6x9_202
+                0x00f164dc                std6x9_119
+                0x00f16869                std6x9_253
+                0x00f16536                std6x9_162
+                0x00f16833                std6x9_247
+                0x00f1624b                std6x9_46
+                0x00f164ca                std6x9_117
+                0x00f16374                std6x9_79
+                0x00f1679a                std6x9_230
+                0x00f16590                std6x9_172
+                0x00f167eb                std6x9_239
+                0x00f1670a                std6x9_214
+                0x00f16470                std6x9_107
+                0x00f16749                std6x9_221
+                0x00f16806                std6x9_242
+                0x00f165e1                std6x9_181
+                0x00f162db                std6x9_62
+                0x00f16791                std6x9_229
+                0x00f1648b                std6x9_110
+                0x00f164ee                std6x9_121
+                0x00f16617                std6x9_187
+                0x00f16308                std6x9_67
+                0x00f16548                std6x9_164
+                0x00f1677f                std6x9_227
+                0x00f16359                std6x9_76
+                0x00f16311                std6x9_68
+                0x00f16416                std6x9_97
+                0x00f1644c                std6x9_103
+                0x00f161df                std6x9_34
+                0x00f165bd                std6x9_177
+                0x00f162ed                std6x9_64
+                0x00f16857                std6x9_251
+                0x00f166d4                std6x9_208
+                0x00f163e9                std6x9_92
+                0x00f16740                std6x9_220
+                0x00f1671c                std6x9_216
+                0x00f1625d                std6x9_48
+                0x00f162b7                std6x9_58
+                0x00f167d0                std6x9_236
+                0x00f1665f                std6x9_195
+                0x00f1649d                std6x9_112
+                0x00f1680f                std6x9_243
+                0x00f163b3                std6x9_86
+                0x00f16701                std6x9_213
+                0x00f16398                std6x9_83
+                0x00f162c9                std6x9_60
+                0x00f16482                std6x9_109
+                0x00f165cf                std6x9_179
+                0x00f16605                std6x9_185
+                0x00f1632c                std6x9_71
+                0x00f1641f                std6x9_98
+                0x00f16266                std6x9_49
+                0x00f1633e                std6x9_73
+                0x00f16509                std6x9_124
+                0x00f166b0                std6x9_204
+                0x00f1664d                std6x9_193
+                0x00f162f6                std6x9_65
+                0x00f16563                std6x9_167
+                0x00f161cd                std6x9_32
+                0x00f161d6                std6x9_33
+                0x00f16845                std6x9_249
+                0x00f165d8                std6x9_180
+                0x00f163fb                std6x9_94
+                0x00f164c1                std6x9_116
+                0x00f167a3                std6x9_231
+                0x00f16671                std6x9_197
+                0x00f16683                std6x9_199
+                0x00f16713                std6x9_215
+                0x00f16323                std6x9_70
+                0x00f163ce                std6x9_89
+                0x00f163a1                std6x9_84
+                0x00f162ff                std6x9_66
+                0x00f16599                std6x9_173
+                0x00f167e2                std6x9_238
+                0x00f16479                std6x9_108
+                0x00f161e8                std6x9_35
+                0x00f16467                std6x9_106
+                0x00f16776                std6x9_226
+                0x00f167fd                std6x9_241
+                0x00f164e5                std6x9_120
+                0x00f1653f                std6x9_163
+                0x00f1675b                std6x9_223
+                0x00f16788                std6x9_228
+                0x00f163f2                std6x9_93
+                0x00f16494                std6x9_111
+                0x00f165f3                std6x9_183
+                0x00f16227                std6x9_42
+                0x00f163bc                std6x9_87
+                0x00f167b5                std6x9_233
+                0x00f167c7                std6x9_235
+                0x00f16404                std6x9_95
+                0x00f16587                std6x9_171
+                0x00f1626f                std6x9_50
+                0x00f16428                std6x9_99
+                0x00f16278                std6x9_51
+                0x00f16254                std6x9_47
+                0x00f165b4                std6x9_176
+                0x00f16629                std6x9_189
+                0x00f16860                std6x9_252
+                0x00f16443                std6x9_102
+                0x00f165ab                std6x9_175
+                0x00f16335                std6x9_72
+                0x00f166dd                std6x9_209
+                0x00f1672e                std6x9_218
+                0x00f166cb                std6x9_207
+                0x00f16632                std6x9_190
+                0x00f16455                std6x9_104
+                0x00f162e4                std6x9_63
+                0x00f164af                std6x9_114
+                0x00f167d9                std6x9_237
+                0x00f1620c                std6x9_39
+                0x00f16500                std6x9_123
+                0x00f1684e                std6x9_250
+                0x00f1655a                std6x9_166
+                0x00f163c5                std6x9_88
+                0x00f1628a                std6x9_53
+                0x00f166ef                std6x9_211
+                0x00f1621e                std6x9_41
+                0x00f166a7                std6x9_203
+                0x00f164d3                std6x9_118
+                0x00f16872                std6x9_254
+                0x00f1652d                std6x9_161
+                0x00f1683c                std6x9_248
+                0x00f1631a                std6x9_69
+                0x00f166f8                std6x9_212
+                0x00f166b9                std6x9_205
+                0x00f1668c                std6x9_200
+                0x00f16644                std6x9_192
+                0x00f1687b                std6x9_255
+                0x00f16821                std6x9_245
+                0x00f1651b                std6x9_126
+                0x00f1640d                std6x9_96
+                0x00f16575                std6x9_169
+                0x00f16362                std6x9_77
+                0x00f16752                std6x9_222
+                0x00f16512                std6x9_125
+                0x00f16668                std6x9_196
+                0x00f1667a                std6x9_198
+                0x00f1656c                std6x9_168
+                0x00f163e0                std6x9_91
+                0x00f16215                std6x9_40
+                0x00f163aa                std6x9_85
+                0x00f1638f                std6x9_82
+                0x00f162a5                std6x9_56
+                0x00f16230                std6x9_43
+                0x00f165ea                std6x9_182
+                0x00f16293                std6x9_54
+                0x00f162ae                std6x9_57
+                0x00f16242                std6x9_45
+                0x00f1645e                std6x9_105
+                0x00f16620                std6x9_188
+                0x00f162c0                std6x9_59
+                0x00f16764                std6x9_224
+                0x00f163d7                std6x9_90
+                0x00f1676d                std6x9_225
+                0x00f1657e                std6x9_170
+                0x00f161fa                std6x9_37
+                0x00f165fc                std6x9_184
+                0x00f16725                std6x9_217
+                0x00f167ac                std6x9_232
+                0x00f167be                std6x9_234
+                0x00f1643a                std6x9_101
+                0x00f165a2                std6x9_174
+                0x00f16347                std6x9_74
+                0x00f16656                std6x9_194
+                0x00f1637d                std6x9_80
+                0x00f16737                std6x9_219
+                0x00f16431                std6x9_100
+                0x00f1636b                std6x9_78
+                0x00f16818                std6x9_244
+                0x00f162d2                std6x9_61
+                0x00f16203                std6x9_38
+                0x00f16524                std6x9_160
+                0x00f165c6                std6x9_178
+                0x00f16239                std6x9_44
+                0x00f164f7                std6x9_122
+ .rodata        0x00f16884      0x9c0 kernel/build/7x13.o
+                0x00f169d6                std7x13_57
+                0x00f16e68                std7x13_180
+                0x00f16b83                std7x13_90
+                0x00f1703c                std7x13_216
+                0x00f17203                std7x13_251
+                0x00f16edd                std7x13_189
+                0x00f171cf                std7x13_247
+                0x00f16bd1                std7x13_96
+                0x00f16a4b                std7x13_66
+                0x00f16bb7                std7x13_94
+                0x00f16a72                std7x13_69
+                0x00f16f79                std7x13_201
+                0x00f16c12                std7x13_101
+                0x00f1708a                std7x13_222
+                0x00f16a31                std7x13_64
+                0x00f16c46                std7x13_105
+                0x00f16a7f                std7x13_70
+                0x00f17126                std7x13_234
+                0x00f1710c                std7x13_232
+                0x00f1707d                std7x13_221
+                0x00f169af                std7x13_54
+                0x00f16b4f                std7x13_86
+                0x00f16fe1                std7x13_209
+                0x00f171c2                std7x13_246
+                0x00f16e27                std7x13_175
+                0x00f16b35                std7x13_84
+                0x00f16ffb                std7x13_211
+                0x00f16cc8                std7x13_115
+                0x00f16dcc                std7x13_168
+                0x00f168d2                std7x13_37
+                0x00f16f11                std7x13_193
+                0x00f16af4                std7x13_79
+                0x00f16d4a                std7x13_125
+                0x00f16d8b                std7x13_163
+                0x00f16d64                std7x13_160
+                0x00f16ab3                std7x13_74
+                0x00f16a99                std7x13_72
+                0x00f168b8                std7x13_35
+                0x00f16f6c                std7x13_200
+                0x00f17181                std7x13_241
+                0x00f16fa0                std7x13_204
+                0x00f1692d                std7x13_44
+                0x00f16b1b                std7x13_82
+                0x00f16906                std7x13_41
+                0x00f16954                std7x13_47
+                0x00f16e34                std7x13_176
+                0x00f170ff                std7x13_231
+                0x00f16913                std7x13_42
+                0x00f1722a                std7x13_254
+                0x00f17063                std7x13_219
+                0x00f16ec3                std7x13_187
+                0x00f17167                std7x13_239
+                0x00f16f45                std7x13_197
+                0x00f16b5c                std7x13_87
+                0x00f16f04                std7x13_192
+                0x00f16891                std7x13_32
+                0x00f16eea                std7x13_190
+                0x00f170cb                std7x13_227
+                0x00f16fee                std7x13_210
+                0x00f16c6d                std7x13_108
+                0x00f16f5f                std7x13_199
+                0x00f16de6                std7x13_170
+                0x00f16f2b                std7x13_195
+                0x00f170a4                std7x13_224
+                0x00f17237                std7x13_255
+                0x00f16b9d                std7x13_92
+                0x00f1697b                std7x13_50
+                0x00f16c60                std7x13_107
+                0x00f16c94                std7x13_111
+                0x00f16988                std7x13_51
+                0x00f16bde                std7x13_97
+                0x00f16beb                std7x13_98
+                0x00f16d7e                std7x13_162
+                0x00f16a58                std7x13_67
+                0x00f16cae                std7x13_113
+                0x00f16c2c                std7x13_103
+                0x00f16a24                std7x13_63
+                0x00f16cfc                std7x13_119
+                0x00f16dbf                std7x13_167
+                0x00f16ef7                std7x13_191
+                0x00f16fc7                std7x13_207
+                0x00f171a8                std7x13_244
+                0x00f1715a                std7x13_238
+                0x00f16f52                std7x13_198
+                0x00f16a8c                std7x13_71
+                0x00f17140                std7x13_236
+                0x00f16a65                std7x13_68
+                0x00f17022                std7x13_214
+                0x00f169fd                std7x13_60
+                0x00f169bc                std7x13_55
+                0x00f16e41                std7x13_177
+                0x00f16c87                std7x13_110
+                0x00f169a2                std7x13_53
+                0x00f16b42                std7x13_85
+                0x00f168df                std7x13_38
+                0x00f16d57                std7x13_126
+                0x00f16fba                std7x13_206
+                0x00f16d71                std7x13_161
+                0x00f1719b                std7x13_243
+                0x00f16ada                std7x13_77
+                0x00f1714d                std7x13_237
+                0x00f17133                std7x13_235
+                0x00f170be                std7x13_226
+                0x00f16ac0                std7x13_75
+                0x00f16c7a                std7x13_109
+                0x00f16f86                std7x13_202
+                0x00f16f1e                std7x13_194
+                0x00f16c53                std7x13_106
+                0x00f1693a                std7x13_45
+                0x00f16961                std7x13_48
+                0x00f16e9c                std7x13_184
+                0x00f16d16                std7x13_121
+                0x00f16e1a                std7x13_174
+                0x00f16b69                std7x13_88
+                0x00f170b1                std7x13_225
+                0x00f16b76                std7x13_89
+                0x00f16b0e                std7x13_81
+                0x00f168f9                std7x13_40
+                0x00f16947                std7x13_46
+                0x00f16b90                std7x13_91
+                0x00f169e3                std7x13_58
+                0x00f1689e                std7x13_33
+                0x00f17015                std7x13_213
+                0x00f16da5                std7x13_165
+                0x00f1718e                std7x13_242
+                0x00f16fad                std7x13_205
+                0x00f16f38                std7x13_196
+                0x00f16cbb                std7x13_114
+                0x00f16bc4                std7x13_95
+                0x00f17008                std7x13_212
+                0x00f16fd4                std7x13_208
+                0x00f16a3e                std7x13_65
+                0x00f171b5                std7x13_245
+                0x00f16baa                std7x13_93
+                0x00f16e8f                std7x13_183
+                0x00f1721d                std7x13_253
+                0x00f17056                std7x13_218
+                0x00f16d98                std7x13_164
+                0x00f16ce2                std7x13_117
+                0x00f16e5b                std7x13_179
+                0x00f17070                std7x13_220
+                0x00f16d3d                std7x13_124
+                0x00f170e5                std7x13_229
+                0x00f16dd9                std7x13_169
+                0x00f16a0a                std7x13_61
+                0x00f169c9                std7x13_56
+                0x00f16df3                std7x13_171
+                0x00f16e0d                std7x13_173
+                0x00f16a17                std7x13_62
+                0x00f16d09                std7x13_120
+                0x00f16b28                std7x13_83
+                0x00f16ca1                std7x13_112
+                0x00f16c39                std7x13_104
+                0x00f170f2                std7x13_230
+                0x00f16aa6                std7x13_73
+                0x00f17119                std7x13_233
+                0x00f168c5                std7x13_36
+                0x00f16e82                std7x13_182
+                0x00f171e9                std7x13_249
+                0x00f16b01                std7x13_80
+                0x00f170d8                std7x13_228
+                0x00f16ae7                std7x13_78
+                0x00f17097                std7x13_223
+                0x00f16ed0                std7x13_188
+                0x00f168ec                std7x13_39
+                0x00f16920                std7x13_43
+                0x00f16e75                std7x13_181
+                0x00f16db2                std7x13_166
+                0x00f16acd                std7x13_76
+                0x00f16884                std7x13_0
+                0x00f1696e                std7x13_49
+                0x00f17174                std7x13_240
+                0x00f16f93                std7x13_203
+                0x00f16e00                std7x13_172
+                0x00f16d30                std7x13_123
+                0x00f17210                std7x13_252
+                0x00f1702f                std7x13_215
+                0x00f17049                std7x13_217
+                0x00f171f6                std7x13_250
+                0x00f171dc                std7x13_248
+                0x00f16eb6                std7x13_186
+                0x00f16cef                std7x13_118
+                0x00f16cd5                std7x13_116
+                0x00f16c1f                std7x13_102
+                0x00f16ea9                std7x13_185
+                0x00f169f0                std7x13_59
+                0x00f16c05                std7x13_100
+                0x00f168ab                std7x13_34
+                0x00f16bf8                std7x13_99
+                0x00f16995                std7x13_52
+                0x00f16d23                std7x13_122
+                0x00f16e4e                std7x13_178
+ .rodata        0x00f17244      0x9c0 kernel/build/8x13.o
+                0x00f17717                std8x13_126
+                0x00f17536                std8x13_89
+                0x00f17647                std8x13_110
+                0x00f178c4                std8x13_192
+                0x00f174c1                std8x13_80
+                0x00f17869                std8x13_185
+                0x00f17a09                std8x13_217
+                0x00f179e2                std8x13_214
+                0x00f17ad9                std8x13_233
+                0x00f17355                std8x13_52
+                0x00f17661                std8x13_112
+                0x00f17987                std8x13_207
+                0x00f172d3                std8x13_42
+                0x00f17577                std8x13_94
+                0x00f17bb6                std8x13_250
+                0x00f179bb                std8x13_211
+                0x00f17285                std8x13_36
+                0x00f173bd                std8x13_60
+                0x00f17758                std8x13_164
+                0x00f173b0                std8x13_59
+                0x00f1791f                std8x13_199
+                0x00f175ec                std8x13_103
+                0x00f1737c                std8x13_55
+                0x00f1780e                std8x13_178
+                0x00f17801                std8x13_177
+                0x00f178b7                std8x13_191
+                0x00f17a64                std8x13_224
+                0x00f17bd0                std8x13_252
+                0x00f17654                std8x13_111
+                0x00f17418                std8x13_67
+                0x00f17b82                std8x13_246
+                0x00f17591                std8x13_96
+                0x00f17425                std8x13_68
+                0x00f1762d                std8x13_108
+                0x00f1756a                std8x13_93
+                0x00f1736f                std8x13_54
+                0x00f17842                std8x13_182
+                0x00f17765                std8x13_165
+                0x00f17a3d                std8x13_221
+                0x00f17af3                std8x13_235
+                0x00f17b8f                std8x13_247
+                0x00f177b3                std8x13_171
+                0x00f17ae6                std8x13_234
+                0x00f173f1                std8x13_64
+                0x00f1749a                std8x13_77
+                0x00f172ac                std8x13_39
+                0x00f17aa5                std8x13_229
+                0x00f175ab                std8x13_98
+                0x00f1785c                std8x13_184
+                0x00f17953                std8x13_203
+                0x00f178f8                std8x13_196
+                0x00f17292                std8x13_37
+                0x00f17946                std8x13_202
+                0x00f1784f                std8x13_183
+                0x00f176c9                std8x13_120
+                0x00f176f0                std8x13_123
+                0x00f17994                std8x13_208
+                0x00f179a1                std8x13_209
+                0x00f174db                std8x13_82
+                0x00f17502                std8x13_85
+                0x00f176a2                std8x13_117
+                0x00f174a7                std8x13_78
+                0x00f172ed                std8x13_44
+                0x00f1763a                std8x13_109
+                0x00f17307                std8x13_46
+                0x00f17ab2                std8x13_230
+                0x00f177e7                std8x13_175
+                0x00f17731                std8x13_161
+                0x00f17b75                std8x13_245
+                0x00f17695                std8x13_116
+                0x00f175df                std8x13_102
+                0x00f178aa                std8x13_190
+                0x00f17473                std8x13_74
+                0x00f179ef                std8x13_215
+                0x00f17620                std8x13_107
+                0x00f17459                std8x13_72
+                0x00f174f5                std8x13_84
+                0x00f17b9c                std8x13_248
+                0x00f172e0                std8x13_43
+                0x00f17a57                std8x13_223
+                0x00f17584                std8x13_95
+                0x00f173ca                std8x13_61
+                0x00f1773e                std8x13_162
+                0x00f17b34                std8x13_240
+                0x00f17688                std8x13_115
+                0x00f17348                std8x13_51
+                0x00f17835                std8x13_181
+                0x00f1777f                std8x13_167
+                0x00f17a71                std8x13_225
+                0x00f17bdd                std8x13_253
+                0x00f1744c                std8x13_71
+                0x00f175d2                std8x13_101
+                0x00f17b41                std8x13_241
+                0x00f1792c                std8x13_200
+                0x00f172c6                std8x13_41
+                0x00f17432                std8x13_69
+                0x00f1732e                std8x13_49
+                0x00f177c0                std8x13_172
+                0x00f17876                std8x13_186
+                0x00f17890                std8x13_188
+                0x00f1740b                std8x13_66
+                0x00f178de                std8x13_194
+                0x00f17529                std8x13_88
+                0x00f1755d                std8x13_92
+                0x00f176e3                std8x13_122
+                0x00f1726b                std8x13_34
+                0x00f17a23                std8x13_219
+                0x00f176fd                std8x13_124
+                0x00f17396                std8x13_57
+                0x00f17543                std8x13_90
+                0x00f176bc                std8x13_119
+                0x00f173fe                std8x13_65
+                0x00f17939                std8x13_201
+                0x00f179fc                std8x13_216
+                0x00f178d1                std8x13_193
+                0x00f17912                std8x13_198
+                0x00f175b8                std8x13_99
+                0x00f179ae                std8x13_210
+                0x00f17b1a                std8x13_238
+                0x00f17724                std8x13_160
+                0x00f17a98                std8x13_228
+                0x00f173e4                std8x13_63
+                0x00f1750f                std8x13_86
+                0x00f1789d                std8x13_189
+                0x00f17a4a                std8x13_222
+                0x00f17a16                std8x13_218
+                0x00f17b0d                std8x13_237
+                0x00f17314                std8x13_47
+                0x00f17b4e                std8x13_242
+                0x00f17b68                std8x13_244
+                0x00f178eb                std8x13_195
+                0x00f177cd                std8x13_173
+                0x00f1778c                std8x13_168
+                0x00f17b5b                std8x13_243
+                0x00f1767b                std8x13_114
+                0x00f17244                std8x13_0
+                0x00f175c5                std8x13_100
+                0x00f1774b                std8x13_163
+                0x00f17828                std8x13_180
+                0x00f179d5                std8x13_213
+                0x00f17389                std8x13_56
+                0x00f17466                std8x13_73
+                0x00f17278                std8x13_35
+                0x00f17b27                std8x13_239
+                0x00f1759e                std8x13_97
+                0x00f17a30                std8x13_220
+                0x00f1781b                std8x13_179
+                0x00f174e8                std8x13_83
+                0x00f17a7e                std8x13_226
+                0x00f17bea                std8x13_254
+                0x00f1796d                std8x13_205
+                0x00f1797a                std8x13_206
+                0x00f176af                std8x13_118
+                0x00f17abf                std8x13_231
+                0x00f176d6                std8x13_121
+                0x00f179c8                std8x13_212
+                0x00f17362                std8x13_53
+                0x00f175f9                std8x13_104
+                0x00f1733b                std8x13_50
+                0x00f1743f                std8x13_70
+                0x00f172b9                std8x13_40
+                0x00f177f4                std8x13_176
+                0x00f17321                std8x13_48
+                0x00f17799                std8x13_169
+                0x00f17b00                std8x13_236
+                0x00f173a3                std8x13_58
+                0x00f17550                std8x13_91
+                0x00f1729f                std8x13_38
+                0x00f1748d                std8x13_76
+                0x00f17613                std8x13_106
+                0x00f1751c                std8x13_87
+                0x00f17905                std8x13_197
+                0x00f17acc                std8x13_232
+                0x00f17bc3                std8x13_251
+                0x00f17bf7                std8x13_255
+                0x00f1725e                std8x13_33
+                0x00f17772                std8x13_166
+                0x00f1770a                std8x13_125
+                0x00f17606                std8x13_105
+                0x00f17960                std8x13_204
+                0x00f174b4                std8x13_79
+                0x00f172fa                std8x13_45
+                0x00f177a6                std8x13_170
+                0x00f177da                std8x13_174
+                0x00f17ba9                std8x13_249
+                0x00f1766e                std8x13_113
+                0x00f174ce                std8x13_81
+                0x00f17a8b                std8x13_227
+                0x00f17883                std8x13_187
+                0x00f17480                std8x13_75
+                0x00f17251                std8x13_32
+                0x00f173d7                std8x13_62
+ .rodata        0x00f17c04      0x200 kernel/build/fat.o
+ .rodata        0x00f17e04      0x200 kernel/build/fat_lowLevel.o
+ .rodata        0x00f18004       0x50 kernel/build/vsprintf.o
+ .rodata        0x00f18054      0x100 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_clz.oS)
+                0x00f18054                __clz_tab
+ *(.rodata.str1.4)
+ .rodata.str1.4
+                0x00f18154       0x89 kernel/build/ata.o
+                                 0x8c (size before relaxing)
+ *fill*         0x00f181dd        0x3 00
+ .rodata.str1.4
+                0x00f181e0       0xef kernel/build/bat_power.o
+                                 0xf0 (size before relaxing)
+ *fill*         0x00f182cf        0x1 00
+ .rodata.str1.4
+                0x00f182d0      0x1e9 kernel/build/bflat.o
+                                0x1ec (size before relaxing)
+ *fill*         0x00f184b9        0x3 00
+ .rodata.str1.4
+                0x00f184bc       0x10 kernel/build/buttons.o
+ .rodata.str1.4
+                0x00f184cc       0x33 kernel/build/cpld.o
+                                 0x34 (size before relaxing)
+ *fill*         0x00f184ff        0x1 00
+ .rodata.str1.4
+                0x00f18500      0x1d7 kernel/build/disk.o
+                                0x1d8 (size before relaxing)
+ *fill*         0x00f186d7        0x1 00
+ .rodata.str1.4
+                0x00f186d8      0x18d kernel/build/dsp.o
+                                0x190 (size before relaxing)
+ *fill*         0x00f18865        0x3 00
+ .rodata.str1.4
+                0x00f18868       0x58 kernel/build/evt.o
+ .rodata.str1.4
+                0x00f188c0       0x3c kernel/build/evt_handle_fct.o
+ .rodata.str1.4
+                0x00f188fc       0x2c kernel/build/exit.o
+ .rodata.str1.4
+                0x00f18928      0x221 kernel/build/fat.o
+                                0x224 (size before relaxing)
+ *fill*         0x00f18b49        0x3 00
+ .rodata.str1.4
+                0x00f18b4c      0x4ea kernel/build/fat_lowLevel.o
+                                0x4ec (size before relaxing)
+ *fill*         0x00f19036        0x2 00
+ .rodata.str1.4
+                0x00f19038       0x59 kernel/build/file_type.o
+                                 0x5c (size before relaxing)
+ *fill*         0x00f19091        0x3 00
+ .rodata.str1.4
+                0x00f19094        0x9 kernel/build/graphics.o
+                                  0xc (size before relaxing)
+ *fill*         0x00f1909d        0x3 00
+ .rodata.str1.4
+                0x00f190a0       0x79 kernel/build/gui_fct.o
+                                 0x88 (size before relaxing)
+ *fill*         0x00f19119        0x3 00
+ .rodata.str1.4
+                0x00f1911c      0x39e kernel/build/icons.o
+                                0x3f0 (size before relaxing)
+ *fill*         0x00f194ba        0x2 00
+ .rodata.str1.4
+                0x00f194bc       0x9d kernel/build/irq.o
+                                 0xa0 (size before relaxing)
+ *fill*         0x00f19559        0x3 00
+ .rodata.str1.4
+                0x00f1955c      0x1ca kernel/build/ls_fct.o
+                                0x1cc (size before relaxing)
+ *fill*         0x00f19726        0x2 00
+ .rodata.str1.4
+                0x00f19728       0xad kernel/build/ls_main.o
+                                 0xc0 (size before relaxing)
+ *fill*         0x00f197d5        0x3 00
+ .rodata.str1.4
+                0x00f197d8      0x12c kernel/build/main.o
+ .rodata.str1.4
+                0x00f19904      0x3ef kernel/build/main_menu.o
+                                0x428 (size before relaxing)
+ *fill*         0x00f19cf3        0x1 00
+ .rodata.str1.4
+                0x00f19cf4      0x140 kernel/build/malloc.o
+                                0x148 (size before relaxing)
+ .rodata.str1.4
+                0x00f19e34      0x3e7 kernel/build/med.o
+                                0x3f0 (size before relaxing)
+ *fill*         0x00f1a21b        0x1 00
+ .rodata.str1.4
+                0x00f1a21c        0x3 kernel/build/menu.o
+                                  0xc (size before relaxing)
+ *fill*         0x00f1a21f        0x1 00
+ .rodata.str1.4
+                0x00f1a220       0x2f kernel/build/msgBox.o
+                                 0xa0 (size before relaxing)
+ *fill*         0x00f1a24f        0x1 00
+ .rodata.str1.4
+                0x00f1a250       0xfa kernel/build/parse_cfg.o
+                                0x100 (size before relaxing)
+ *fill*         0x00f1a34a        0x2 00
+ .rodata.str1.4
+                0x00f1a34c       0x21 kernel/build/printk.o
+                                 0x2c (size before relaxing)
+ *fill*         0x00f1a36d        0x3 00
+ .rodata.str1.4
+                0x00f1a370      0x200 kernel/build/rtc.o
+                                0x204 (size before relaxing)
+ .rodata.str1.4
+                0x00f1a570       0x42 kernel/build/status_line.o
+                                 0x80 (size before relaxing)
+ *fill*         0x00f1a5b2        0x2 00
+ .rodata.str1.4
+                0x00f1a5b4      0x48e kernel/build/swi.o
+                                0x4a8 (size before relaxing)
+ *fill*         0x00f1aa42        0x2 00
+ .rodata.str1.4
+                0x00f1aa44       0x1a kernel/build/ti_wdt.o
+                                 0x1c (size before relaxing)
+ *fill*         0x00f1aa5e        0x2 00
+ .rodata.str1.4
+                0x00f1aa60       0xaf kernel/build/timer.o
+                                 0xb8 (size before relaxing)
+ *fill*         0x00f1ab0f        0x1 00
+ .rodata.str1.4
+                0x00f1ab10       0x92 kernel/build/trap_fct.o
+                                 0x94 (size before relaxing)
+ *fill*         0x00f1aba2        0x2 00
+ .rodata.str1.4
+                0x00f1aba4        0xd kernel/build/uart.o
+                                 0x10 (size before relaxing)
+ *fill*         0x00f1abb1        0x3 00
+ .rodata.str1.4
+                0x00f1abb4       0xfc kernel/build/usb_fw.o
+                                0x118 (size before relaxing)
+ .rodata.str1.4
+                0x00f1acb0       0x47 kernel/build/vfs.o
+                                 0x48 (size before relaxing)
+ *fill*         0x00f1acf7        0x1 00
+ .rodata.str1.4
+                0x00f1acf8      0x152 kernel/build/vfs_dops.o
+                                0x154 (size before relaxing)
+ *fill*         0x00f1ae4a        0x2 00
+ .rodata.str1.4
+                0x00f1ae4c      0x1ac kernel/build/vfs_fops.o
+                                0x254 (size before relaxing)
+ .rodata.str1.4
+                0x00f1aff8      0x12e kernel/build/vfs_node.o
+                                0x13c (size before relaxing)
+ *fill*         0x00f1b126        0x2 00
+ .rodata.str1.4
+                0x00f1b128       0xa3 kernel/build/vfs_pathname.o
+                                 0xa4 (size before relaxing)
+ *fill*         0x00f1b1cb        0x1 00
+ .rodata.str1.4
+                0x00f1b1cc       0x42 kernel/build/virtKbd.o
+                                 0x48 (size before relaxing)
+ *fill*         0x00f1b20e        0x2 00
+ .rodata.str1.4
+                0x00f1b210       0x45 kernel/target/arch_GMINI4XX/irq.o
+                                 0x48 (size before relaxing)
+
+.data           0x00f1b258     0x3604
+ *(.data)
+ .data          0x00f1b258      0x420 kernel/build/4x6.o
+                0x00f1b258                std4x6_
+                0x00f1b674                std4x6
+                0x00f1b658                std4x6_o
+ .data          0x00f1b678      0x420 kernel/build/5x8.o
+                0x00f1ba78                std5x8_o
+                0x00f1b678                std5x8_
+                0x00f1ba94                std5x8
+ .data          0x00f1ba98      0x420 kernel/build/6x9.o
+                0x00f1be98                std6x9_o
+                0x00f1beb4                std6x9
+                0x00f1ba98                std6x9_
+ .data          0x00f1beb8      0x420 kernel/build/7x13.o
+                0x00f1c2d4                std7x13
+                0x00f1c2b8                std7x13_o
+                0x00f1beb8                std7x13_
+ .data          0x00f1c2d8      0x420 kernel/build/8x13.o
+                0x00f1c6f4                std8x13
+                0x00f1c6d8                std8x13_o
+                0x00f1c2d8                std8x13_
+ .data          0x00f1c6f8        0x8 kernel/build/ata.o
+                0x00f1c6f8                av_cmd_array
+ .data          0x00f1c700       0x38 kernel/build/bat_power.o
+                0x00f1c700                lcd_state
+                0x00f1c704                lcd_bright
+                0x00f1c720                halt_freq_rep
+                0x00f1c730                hd_timer_used
+                0x00f1c718                halt_timer_used
+                0x00f1c708                lcd_timer_used
+                0x00f1c728                hd_freq_rep
+                0x00f1c710                lcd_freq_rep
+ .data          0x00f1c738       0x2c kernel/build/console.o
+                0x00f1c738                con_gfxStruct
+ .data          0x00f1c764       0x20 kernel/build/cpld.o
+                0x00f1c774                cpld_portArray
+                0x00f1c764                cpld_portState
+ .data          0x00f1c784      0x100 kernel/build/ctype.o
+                0x00f1c784                _ctype
+ .data          0x00f1c884       0x48 kernel/build/disk.o
+                0x00f1c8a8                fatId
+                0x00f1c884                fatStr
+ .data          0x00f1c8cc      0xcc8 kernel/build/graphics.o
+                0x00f1d4f8                BITMAP_2_ini
+                0x00f1d550                VIDEO_2_ini
+                0x00f1d524                VIDEO_1_ini
+                0x00f1d57c                buffers_comp
+                0x00f1d4cc                BITMAP_1_ini
+                0x00f1c8cc                gui_pal
+ .data          0x00f1d594       0x30 kernel/build/graphics_32.o
+                0x00f1d594                g32ops
+ .data          0x00f1d5c4       0x30 kernel/build/graphics_8.o
+                0x00f1d5c4                g8ops
+ .data          0x00f1d5f4       0x20 kernel/build/gui_fct.o
+                0x00f1d5f4                browser_scroll
+ .data          0x00f1d614      0xb58 kernel/build/icons.o
+                0x00f1d96e                upArrow
+                0x00f1da50                mp3
+                0x00f1dad0                image
+                0x00f1dd98                MsgBoxWarning
+                0x00f1dedc                MsgBoxInformation
+                0x00f1da90                text
+                0x00f1dc54                MsgBoxQuestion
+                0x00f1d8c6                cf_icon
+                0x00f1d9bf                dwArrow
+                0x00f1db10                MsgBoxExclamation
+                0x00f1da10                dir
+                0x00f1d920                power_icon
+                0x00f1d812                usb_icon
+                0x00f1e020                MsgBoxError
+                0x00f1e164                ident_str
+                0x00f1d86c                fw_ext_icon
+                0x00f1d614                medios_logo
+ .data          0x00f1e16c      0x15c kernel/build/ls_main.o
+                0x00f1e2c4                x
+                0x00f1e16c                realData
+ .data          0x00f1e2c8       0x6c kernel/build/main_menu.o
+                0x00f1e2c8                menu_cfg
+ .data          0x00f1e334       0x30 kernel/build/med.o
+                0x00f1e34c                IRAM_SECTIONS
+                0x00f1e35c                BSS_SECTIONS
+                0x00f1e334                SDRAM_SECTIONS
+ .data          0x00f1e364       0x18 kernel/build/menu.o
+                0x00f1e368                item_height
+                0x00f1e36c                icon_zone_height
+                0x00f1e364                item_width
+                0x00f1e374                MaxI
+                0x00f1e378                MaxJ
+                0x00f1e370                space_btw_items
+ .data          0x00f1e37c       0x30 kernel/build/osd.o
+                0x00f1e38c                osdLookupOffsetHI
+                0x00f1e37c                osdLookupOffsetLO
+                0x00f1e39c                OSD_OFF_HI_SHIFT
+ .data          0x00f1e3ac        0x4 kernel/build/random.o
+ .data          0x00f1e3b0       0x30 kernel/build/rtc.o
+                0x00f1e3b0                month_code
+ .data          0x00f1e3e0        0xc kernel/build/status_line.o
+                0x00f1e3e8                time_format
+                0x00f1e3e0                batteryRefreshValue
+                0x00f1e3e4                date_format
+ .data          0x00f1e3ec      0x278 kernel/build/swi.o
+                0x00f1e3ec                fct_array
+ .data          0x00f1e664      0x1a4 kernel/build/virtKbd.o
+                0x00f1e7f4                bg_txt_colors
+                0x00f1e66c                leftArrow_DA
+                0x00f1e6d4                leftArrow_SP
+                0x00f1e764                char_horiz
+                0x00f1e750                rightArrow_SP
+                0x00f1e800                mode
+                0x00f1e7ac                action_horiz
+                0x00f1e804                elem
+                0x00f1e664                pal
+                0x00f1e6e8                rightArrow_DA
+                0x00f1e788                char_vert
+ .data          0x00f1e808       0x40 kernel/target/arch_GMINI4XX/buttons.o
+                0x00f1e808                btn_mask
+ .data          0x00f1e848        0x4 kernel/target/arch_GMINI4XX/exit.o
+                0x00f1e848                firmware_start
+ *(.got)
+ .got           0x00f1e84c        0x4 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS)
+ *(.got.*)
+ .got.plt       0x00f1e850        0xc /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS)
+                0x00f1e850                _GLOBAL_OFFSET_TABLE_
+                0x00f1e85c                _real_iram_start = .
+
+.iram           0x00000004      0xb04 load address 0x00f1e85c
+                0x00000004                _iram_start = .
+ *(.vectors)
+ .vectors       0x00000004       0x1c kernel/build/trap.o
+ *(.core)
+ .core          0x00000020      0x1f8 kernel/build/buttons.o
+                0x00000020                btn_readState
+                0x00000030                btn_processPress
+ .core          0x00000218      0x108 kernel/build/irq.o
+                0x00000218                irq_globalHandler
+ .core          0x00000320       0xa0 kernel/build/memcpy.o
+                0x00000320                memmove
+                0x00000320                memcpy
+ .core          0x000003c0       0xc0 kernel/build/memset.o
+                0x000003e0                memset
+ .core          0x00000480      0x2b4 kernel/build/timer.o
+                0x00000480                tmr_intAction
+ .core          0x00000734       0xec kernel/build/trap.o
+                0x00000750                trap_swi
+                0x000007a4                trap_data
+                0x00000734                trap_undef
+                0x00000810                __temp_irq
+                0x000007d8                trap_irq
+                0x000007c0                trap_addrexcptn
+                0x00000788                trap_prefetch
+ .core          0x00000820       0x70 kernel/build/uart.o
+                0x00000820                uart_intAction
+ .core          0x00000890       0xb8 kernel/target/arch_GMINI4XX/trap_fiq.o
+                0x00000890                trap_fiq
+ .core          0x00000948       0x3c kernel/target/arch_GMINI4XX/trap_irq.o
+                0x00000948                __irq_trap
+ *(.cored)
+ .cored         0x00000984       0xe0 kernel/build/buttons.o
+                0x00000a5c                current_repeatParam
+                0x00000984                default_repeatParam
+                0x00000a60                nb_debug_switch
+                0x000009d8                press_step
+                0x00000a18                mx_press
+                0x00000a58                btn_state
+                0x00000998                nb_pressed
+                0x00000994                nb_off_press
+ .cored         0x00000a64        0x4 kernel/build/exit.o
+                0x00000a64                powering_off
+ .cored         0x00000a68        0x8 kernel/build/irq.o
+                0x00000a6c                clf_var
+                0x00000a68                cli_var
+ .cored         0x00000a70        0x8 kernel/build/timer.o
+                0x00000a74                tmr_head
+                0x00000a70                tick
+ .cored         0x00000a78       0x10 kernel/build/uart.o
+                0x00000a84                UART_1_Pipe
+                0x00000a80                UART_0_Pipe
+                0x00000a78                uart_addr
+ .cored         0x00000a88       0x80 kernel/target/arch_GMINI4XX/irq.o
+                0x00000a88                irq_table
+                0x00000b08                _iram_end = .
+
+.bss            0x00f1e860    0xa8070 load address 0x00f1e85c
+                0x00f1e860                _bss_start = .
+ *(.bss)
+ .bss           0x00f1e860        0x4 kernel/build/ata.o
+                0x00f1e860                ata_stopping
+ .bss           0x00f1e864        0x4 kernel/build/bat_power.o
+                0x00f1e864                hd_sleep_state
+ .bss           0x00f1e868      0x1a0 kernel/build/disk.o
+ .bss           0x00f1ea08        0x4 kernel/build/dsp.o
+                0x00f1ea08                g_pDSPHandler
+ .bss           0x00f1ea0c       0x60 kernel/build/graphics.o
+                0x00f1ea64                current_font
+                0x00f1ea38                CURSOR_2_ini
+                0x00f1ea68                current_plane
+                0x00f1ea0c                CURSOR_1_ini
+ .bss           0x00f1ea6c        0x4 kernel/build/icons.o
+                0x00f1ea6c                icon_list_head
+ .bss           0x00f1ea70       0x1c kernel/build/main_menu.o
+                0x00f1ea70                cfgMenu
+                0x00f1ea7c                sub_icon
+                0x00f1ea84                plugin_icon
+                0x00f1ea78                current_item
+                0x00f1ea74                rootMenu
+                0x00f1ea88                usbMode
+                0x00f1ea80                back_icon
+ .bss           0x00f1ea8c        0x4 kernel/build/malloc.o
+                0x00f1ea8c                totalloc
+ .bss           0x00f1ea90        0xc kernel/build/msgBox.o
+                0x00f1ea94                cntButtons
+                0x00f1ea98                g_type
+                0x00f1ea90                stopBoxLoop
+ .bss           0x00f1ea9c        0x8 kernel/build/parse_cfg.o
+                0x00f1eaa0                back
+                0x00f1ea9c                feof_reached
+ .bss           0x00f1eaa4       0xff kernel/build/printk.o
+ *fill*         0x00f1eba3        0x1 00
+ .bss           0x00f1eba4      0x9c8 kernel/build/random.o
+ .bss           0x00f1f56c       0x24 kernel/build/status_line.o
+                0x00f1f580                power
+                0x00f1f57c                cfState
+                0x00f1f574                usbState
+                0x00f1f588                level
+                0x00f1f584                color
+                0x00f1f570                pwrState
+                0x00f1f58c                chargeProgress
+                0x00f1f578                fwExtState
+                0x00f1f56c                batteryRefresh
+ .bss           0x00f1f590        0x8 kernel/build/usb_fw.o
+                0x00f1f590                kusb_fw_status
+                0x00f1f594                k_usb_fw
+ .bss           0x00f1f598       0xe0 kernel/build/virtKbd.o
+                0x00f1f674                str_len
+                0x00f1f628                action_vert
+                0x00f1f5e0                spec_vert
+                0x00f1f670                cur_index
+                0x00f1f598                spec_horiz
+                0x00f1f678                _bss_end = ALIGN (0x4)
+ *fill*         0x00f1f678        0x8 00
+ COMMON         0x00f1f680       0x78 kernel/build/bat_power.o
+                                  0x0 (size before relaxing)
+                0x00f1f680                lcdOnOff_timer
+                0x00f1f6a0                hd_timer
+                0x00f1f6c0                kpwrState
+                0x00f1f6e0                halt_timer
+ *fill*         0x00f1f6f8        0x8 00
+ COMMON         0x00f1f700        0x4 kernel/build/buttons.o
+                                  0x0 (size before relaxing)
+                0x00f1f700                need_clean
+ *fill*         0x00f1f704       0x1c 00
+ COMMON         0x00f1f720    0x10104 kernel/build/console.o
+                                  0x0 (size before relaxing)
+                0x00f1f720                con_lastUpdateEndY
+                0x00f1f740                con_bufferEnd
+                0x00f1f760                con_numCols
+                0x00f1f780                con_numLines
+                0x00f1f788                con_buffer
+                0x00f2f7a0                con_screenEnd
+                0x00f2f7c0                con_bufferStart
+                0x00f2f7e0                con_lastUpdateScreenEnd
+                0x00f2f800                con_screenVisible
+                0x00f2f820                con_gfxBuffer
+ *fill*         0x00f2f824       0x1c 00
+ COMMON         0x00f2f840    0x280d8 kernel/build/evt.o
+                                  0x0 (size before relaxing)
+                0x00f2f840                evt
+                0x00f2f860                evt_pipe_tab
+                0x00f57900                evt_timer
+ *fill*         0x00f57918        0x8 00
+ COMMON         0x00f57920     0x1a50 kernel/build/fat.o
+                                  0x0 (size before relaxing)
+                0x00f57920                cache_list
+                0x00f58d70                readdir_buf
+ *fill*         0x00f59370       0x10 00
+ COMMON         0x00f59380     0x4200 kernel/build/fat_lowLevel.o
+                                  0x0 (size before relaxing)
+                0x00f59380                fat_cache_sectors
+                0x00f5d380                fat_cache
+ COMMON         0x00f5d580       0x58 kernel/build/font.o
+                                  0x0 (size before relaxing)
+                0x00f5d580                font_table
+ *fill*         0x00f5d5d8        0x8 00
+ COMMON         0x00f5d5e0    0x6062c kernel/build/graphics.o
+                                  0x0 (size before relaxing)
+                0x00f5d5e0                screen_VID1
+                0x00f83e08                screen_VID2
+                0x00faa640                buffers
+                0x00faa660                CURSOR_1
+                0x00faa6a0                BITMAP_1
+                0x00faa6d0                screen_BMAP2
+                0x00fb40f8                screen_BMAP1
+                0x00fbdb20                VIDEO_1
+                0x00fbdb60                CURSOR_2
+                0x00fbdba0                BITMAP_2
+                0x00fbdbe0                VIDEO_2
+ *fill*         0x00fbdc0c       0x14 00
+ COMMON         0x00fbdc20       0xc4 kernel/build/gui_fct.o
+                                  0x0 (size before relaxing)
+                0x00fbdc20                gui_ls_dwBitmap
+                0x00fbdc40                gui_ls_textBitmap
+                0x00fbdc60                evt_handler
+                0x00fbdc80                gui_ls_upBitmap
+                0x00fbdca0                gui_ls_mp3Bitmap
+                0x00fbdcc0                gui_ls_imageBitmap
+                0x00fbdce0                gui_ls_dirBitmap
+ *fill*         0x00fbdce4       0x1c 00
+ COMMON         0x00fbdd00      0x244 kernel/build/main_menu.o
+                                  0x0 (size before relaxing)
+                0x00fbdd00                value_buff
+                0x00fbde00                evt_hand
+                0x00fbde20                menu_plug
+                0x00fbde28                item_buff
+                0x00fbdf40                browseData
+ *fill*         0x00fbdf44       0x1c 00
+ COMMON         0x00fbdf60       0x24 kernel/build/malloc.o
+                                  0x0 (size before relaxing)
+                0x00fbdf60                pool_start
+                0x00fbdf80                first_free
+ *fill*         0x00fbdf84       0x1c 00
+ COMMON         0x00fbdfa0      0x1c4 kernel/build/menu.o
+                                  0x0 (size before relaxing)
+                0x00fbdfa0                tmp
+                0x00fbe0c0                pos
+                0x00fbe0e0                current_menu
+                0x00fbe100                jselect
+                0x00fbe120                pselect
+                0x00fbe140                nselect
+                0x00fbe160                iselect
+ *fill*         0x00fbe164       0x1c 00
+ COMMON         0x00fbe180       0xc4 kernel/build/msgBox.o
+                                  0x0 (size before relaxing)
+                0x00fbe180                MsgBox_ErrorBitmap
+                0x00fbe1a0                fontVal
+                0x00fbe1c0                MsgBox_ExclamationBitmap
+                0x00fbe1e0                MsgBox_WarningBitmap
+                0x00fbe200                MsgBox_QuestionBitmap
+                0x00fbe220                res
+                0x00fbe240                MsgBox_InformationBitmap
+ *fill*         0x00fbe244       0x1c 00
+ COMMON         0x00fbe260       0x24 kernel/build/parse_cfg.o
+                                  0x0 (size before relaxing)
+                0x00fbe260                file
+                0x00fbe280                cfg_line_num
+ *fill*         0x00fbe284       0x1c 00
+ COMMON         0x00fbe2a0       0x84 kernel/build/status_line.o
+                                  0x0 (size before relaxing)
+                0x00fbe2a0                st_fwExtIcon
+                0x00fbe2c0                st_usbIcon
+                0x00fbe2e0                st_powerIcon
+                0x00fbe300                st_mediosLogo
+                0x00fbe320                st_cfIcon
+ *fill*         0x00fbe324       0x1c 00
+ COMMON         0x00fbe340        0x4 kernel/build/string.o
+                                  0x0 (size before relaxing)
+                0x00fbe340                ___strtok
+ *fill*         0x00fbe344        0x4 00
+ COMMON         0x00fbe348      0x400 kernel/build/trap_fct.o
+                                  0x0 (size before relaxing)
+                0x00fbe348                trap_stack
+ *fill*         0x00fbe748       0x18 00
+ COMMON         0x00fbe760     0x8010 kernel/build/uart.o
+                                  0x0 (size before relaxing)
+                0x00fbe760                UART_PIPES
+ *fill*         0x00fc6770       0x10 00
+ COMMON         0x00fc6780       0x24 kernel/build/usb_fw.o
+                                  0x0 (size before relaxing)
+                0x00fc6780                kfw_state
+                0x00fc67a0                kusb_state
+ *fill*         0x00fc67a4       0x1c 00
+ COMMON         0x00fc67c0       0x44 kernel/build/vfs.o
+                                  0x0 (size before relaxing)
+                0x00fc67c0                root_node
+                0x00fc67e0                dirty_list
+                0x00fc6800                opened_node
+ *fill*         0x00fc6804       0x1c 00
+ COMMON         0x00fc6820       0xb0 kernel/build/virtKbd.o
+                                  0x0 (size before relaxing)
+                0x00fc6820                txt_x
+                0x00fc6828                cur_str
+                0x00fc6840                txt_y
+                0x00fc6860                coord_horiz
+                0x00fc68a0                coord_vert
+
+.rel.dyn
+
+.common         0x00fc68d0        0x0
+ *(.common)
+                0x00fc68d0                _end_kernel = .
+LOAD kernel/build/4x6.o
+LOAD kernel/build/5x8.o
+LOAD kernel/build/6x9.o
+LOAD kernel/build/7x13.o
+LOAD kernel/build/8x13.o
+LOAD kernel/build/ata.o
+LOAD kernel/build/bat_power.o
+LOAD kernel/build/bflat.o
+LOAD kernel/build/bkpt.o
+LOAD kernel/build/boot.o
+LOAD kernel/build/buttons.o
+LOAD kernel/build/console.o
+LOAD kernel/build/cpld.o
+LOAD kernel/build/ctype.o
+LOAD kernel/build/delay.o
+LOAD kernel/build/disk.o
+LOAD kernel/build/dsp.o
+LOAD kernel/build/evt.o
+LOAD kernel/build/evt_handle_fct.o
+LOAD kernel/build/exit.o
+LOAD kernel/build/fat.o
+LOAD kernel/build/fat_lowLevel.o
+LOAD kernel/build/file_type.o
+LOAD kernel/build/font.o
+LOAD kernel/build/graphics.o
+LOAD kernel/build/graphics_32.o
+LOAD kernel/build/graphics_8.o
+LOAD kernel/build/gui.o
+LOAD kernel/build/gui_fct.o
+LOAD kernel/build/i2c.o
+LOAD kernel/build/icons.o
+LOAD kernel/build/irq.o
+LOAD kernel/build/kdelay.o
+LOAD kernel/build/kernel.o
+LOAD kernel/build/libfloat.o
+LOAD kernel/build/ls_fct.o
+LOAD kernel/build/ls_main.o
+LOAD kernel/build/main.o
+LOAD kernel/build/main_menu.o
+LOAD kernel/build/malloc.o
+LOAD kernel/build/med.o
+LOAD kernel/build/memchr.o
+LOAD kernel/build/memcpy.o
+LOAD kernel/build/memset.o
+LOAD kernel/build/memzero.o
+LOAD kernel/build/menu.o
+LOAD kernel/build/msgBox.o
+LOAD kernel/build/osd.o
+LOAD kernel/build/parse_cfg.o
+LOAD kernel/build/pipes.o
+LOAD kernel/build/printk.o
+LOAD kernel/build/qsort.o
+LOAD kernel/build/random.o
+LOAD kernel/build/rtc.o
+LOAD kernel/build/scrollbar.o
+LOAD kernel/build/stack.o
+LOAD kernel/build/status_line.o
+LOAD kernel/build/strchr.o
+LOAD kernel/build/string.o
+LOAD kernel/build/strrchr.o
+LOAD kernel/build/swi.o
+LOAD kernel/build/ti_wdt.o
+LOAD kernel/build/timer.o
+LOAD kernel/build/trap.o
+LOAD kernel/build/trap_fct.o
+LOAD kernel/build/uart.o
+LOAD kernel/build/usb_fw.o
+LOAD kernel/build/vfs.o
+LOAD kernel/build/vfs_dops.o
+LOAD kernel/build/vfs_fops.o
+LOAD kernel/build/vfs_fsManip.o
+LOAD kernel/build/vfs_node.o
+LOAD kernel/build/vfs_pathname.o
+LOAD kernel/build/virtKbd.o
+LOAD kernel/build/vsprintf.o
+LOAD kernel/target/arch_GMINI4XX/ata.o
+LOAD kernel/target/arch_GMINI4XX/boot.o
+LOAD kernel/target/arch_GMINI4XX/buttons.o
+LOAD kernel/target/arch_GMINI4XX/cpld.o
+LOAD kernel/target/arch_GMINI4XX/exit.o
+LOAD kernel/target/arch_GMINI4XX/irq.o
+LOAD kernel/target/arch_GMINI4XX/osd.o
+LOAD kernel/target/arch_GMINI4XX/ti_wdt.o
+LOAD kernel/target/arch_GMINI4XX/timer.o
+LOAD kernel/target/arch_GMINI4XX/trap_fiq.o
+LOAD kernel/target/arch_GMINI4XX/trap_irq.o
+LOAD /usr/local/toolchain_arm_nofpu/bin/../lib/libfloat.a
+LOAD /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a
+OUTPUT(medios.elf elf32-littlearm)
+
+.comment        0x00000000      0x534
+ .comment       0x00000000       0x12 kernel/build/4x6.o
+ .comment       0x00000012       0x12 kernel/build/5x8.o
+ .comment       0x00000024       0x12 kernel/build/6x9.o
+ .comment       0x00000036       0x12 kernel/build/7x13.o
+ .comment       0x00000048       0x12 kernel/build/8x13.o
+ .comment       0x0000005a       0x12 kernel/build/ata.o
+ .comment       0x0000006c       0x12 kernel/build/bat_power.o
+ .comment       0x0000007e       0x12 kernel/build/bflat.o
+ .comment       0x00000090       0x12 kernel/build/buttons.o
+ .comment       0x000000a2       0x12 kernel/build/console.o
+ .comment       0x000000b4       0x12 kernel/build/cpld.o
+ .comment       0x000000c6       0x12 kernel/build/ctype.o
+ .comment       0x000000d8       0x12 kernel/build/disk.o
+ .comment       0x000000ea       0x12 kernel/build/dsp.o
+ .comment       0x000000fc       0x12 kernel/build/evt.o
+ .comment       0x0000010e       0x12 kernel/build/evt_handle_fct.o
+ .comment       0x00000120       0x12 kernel/build/exit.o
+ .comment       0x00000132       0x12 kernel/build/fat.o
+ .comment       0x00000144       0x12 kernel/build/fat_lowLevel.o
+ .comment       0x00000156       0x12 kernel/build/file_type.o
+ .comment       0x00000168       0x12 kernel/build/font.o
+ .comment       0x0000017a       0x12 kernel/build/graphics.o
+ .comment       0x0000018c       0x12 kernel/build/graphics_32.o
+ .comment       0x0000019e       0x12 kernel/build/graphics_8.o
+ .comment       0x000001b0       0x12 kernel/build/gui.o
+ .comment       0x000001c2       0x12 kernel/build/gui_fct.o
+ .comment       0x000001d4       0x12 kernel/build/i2c.o
+ .comment       0x000001e6       0x12 kernel/build/icons.o
+ .comment       0x000001f8       0x12 kernel/build/irq.o
+ .comment       0x0000020a       0x12 kernel/build/kdelay.o
+ .comment       0x0000021c       0x12 kernel/build/kernel.o
+ .comment       0x0000022e       0x12 kernel/build/libfloat.o
+ .comment       0x00000240       0x12 kernel/build/ls_fct.o
+ .comment       0x00000252       0x12 kernel/build/ls_main.o
+ .comment       0x00000264       0x12 kernel/build/main.o
+ .comment       0x00000276       0x12 kernel/build/main_menu.o
+ .comment       0x00000288       0x12 kernel/build/malloc.o
+ .comment       0x0000029a       0x12 kernel/build/med.o
+ .comment       0x000002ac       0x12 kernel/build/menu.o
+ .comment       0x000002be       0x12 kernel/build/msgBox.o
+ .comment       0x000002d0       0x12 kernel/build/osd.o
+ .comment       0x000002e2       0x12 kernel/build/parse_cfg.o
+ .comment       0x000002f4       0x12 kernel/build/pipes.o
+ .comment       0x00000306       0x12 kernel/build/printk.o
+ .comment       0x00000318       0x12 kernel/build/qsort.o
+ .comment       0x0000032a       0x12 kernel/build/random.o
+ .comment       0x0000033c       0x12 kernel/build/rtc.o
+ .comment       0x0000034e       0x12 kernel/build/scrollbar.o
+ .comment       0x00000360       0x12 kernel/build/status_line.o
+ .comment       0x00000372       0x12 kernel/build/string.o
+ .comment       0x00000384       0x12 kernel/build/swi.o
+ .comment       0x00000396       0x12 kernel/build/ti_wdt.o
+ .comment       0x000003a8       0x12 kernel/build/timer.o
+ .comment       0x000003ba       0x12 kernel/build/trap_fct.o
+ .comment       0x000003cc       0x12 kernel/build/uart.o
+ .comment       0x000003de       0x12 kernel/build/usb_fw.o
+ .comment       0x000003f0       0x12 kernel/build/vfs.o
+ .comment       0x00000402       0x12 kernel/build/vfs_dops.o
+ .comment       0x00000414       0x12 kernel/build/vfs_fops.o
+ .comment       0x00000426       0x12 kernel/build/vfs_fsManip.o
+ .comment       0x00000438       0x12 kernel/build/vfs_node.o
+ .comment       0x0000044a       0x12 kernel/build/vfs_pathname.o
+ .comment       0x0000045c       0x12 kernel/build/virtKbd.o
+ .comment       0x0000046e       0x12 kernel/build/vsprintf.o
+ .comment       0x00000480       0x12 kernel/target/arch_GMINI4XX/ata.o
+ .comment       0x00000492       0x12 kernel/target/arch_GMINI4XX/buttons.o
+ .comment       0x000004a4       0x12 kernel/target/arch_GMINI4XX/cpld.o
+ .comment       0x000004b6       0x12 kernel/target/arch_GMINI4XX/exit.o
+ .comment       0x000004c8       0x12 kernel/target/arch_GMINI4XX/irq.o
+ .comment       0x000004da       0x12 kernel/target/arch_GMINI4XX/osd.o
+ .comment       0x000004ec       0x12 kernel/target/arch_GMINI4XX/ti_wdt.o
+ .comment       0x000004fe       0x12 kernel/target/arch_GMINI4XX/timer.o
+ .comment       0x00000510       0x12 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS)
+ .comment       0x00000522       0x12 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_clz.oS)
+
+.text.init.arch
+                0x00000000       0x44
+ .text.init.arch
+                0x00000000       0x44 kernel/target/arch_GMINI4XX/boot.o
+                0x00000000                entry_code
+
+.debug_aranges  0x00000000       0xa0
+ .debug_aranges
+                0x00000000       0x20 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS)
+ .debug_aranges
+                0x00000020       0x20 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divsi3.oS)
+ .debug_aranges
+                0x00000040       0x20 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_umodsi3.oS)
+ .debug_aranges
+                0x00000060       0x20 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_modsi3.oS)
+ .debug_aranges
+                0x00000080       0x20 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_dvmd_lnx.oS)
+
+.debug_info     0x00000000      0x410
+ .debug_info    0x00000000       0xd0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS)
+ .debug_info    0x000000d0       0xd0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divsi3.oS)
+ .debug_info    0x000001a0       0xd0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_umodsi3.oS)
+ .debug_info    0x00000270       0xd0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_modsi3.oS)
+ .debug_info    0x00000340       0xd0 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_dvmd_lnx.oS)
+
+.debug_abbrev   0x00000000       0x64
+ .debug_abbrev  0x00000000       0x14 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS)
+ .debug_abbrev  0x00000014       0x14 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divsi3.oS)
+ .debug_abbrev  0x00000028       0x14 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_umodsi3.oS)
+ .debug_abbrev  0x0000003c       0x14 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_modsi3.oS)
+ .debug_abbrev  0x00000050       0x14 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_dvmd_lnx.oS)
+
+.debug_line     0x00000000      0x3a0
+ .debug_line    0x00000000       0xae /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_udivsi3.oS)
+ .debug_line    0x000000ae       0xb4 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divsi3.oS)
+ .debug_line    0x00000162       0xae /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_umodsi3.oS)
+ .debug_line    0x00000210       0xb3 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_modsi3.oS)
+ .debug_line    0x000002c3       0xa9 /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_dvmd_lnx.oS)
+ .debug_line    0x0000036c       0x1a /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_divdi3.oS)
+ .debug_line    0x00000386       0x1a /usr/local/toolchain_arm_nofpu/arm-linux-uclibc/lib//libgcc.a(_clz.oS)

@@ -1,0 +1,626 @@
+Archive member included because of file (symbol)
+
+../../lib/libmedios.a(api.o)  build/avboy.o (__modsi3)
+../../lib/libmedios.a(ctype.o)
+                              build/loader.o (_ctype)
+../../lib/libmedios.a(memcpy.o)
+                              build/inflate.o (memcpy)
+../../lib/libmedios.a(memset.o)
+                              build/hw.o (memset)
+../../lib/libmedios.a(random.o)
+                              build/loader.o (srand)
+../../lib/libmedios.a(strchr.o)
+                              build/loader.o (strchr)
+../../lib/libmedios.a(string.o)
+                              build/loader.o (strdup)
+../../lib/libmedios.a(strrchr.o)
+                              build/loader.o (strrchr)
+../../lib/libmedios.a(vsprintf.o)
+                              build/menu.o (snprintf)
+
+Allocating common symbols
+Common symbol       size              file
+
+gfx_drawPixel       0x4               build/avboy.o
+gfx_putC            0x4               build/avboy.o
+mdelay              0x4               build/avboy.o
+gfx_putS            0x4               build/avboy.o
+mbc                 0xa0              build/mem.o
+lcd_vbank           0x4000            build/avboy.o
+gfx_planeGetState   0x4               build/avboy.o
+printf              0x4               build/avboy.o
+gfx_drawBitmap      0x4               build/avboy.o
+gfx_planeShow       0x4               build/avboy.o
+do_malloc           0x4               build/avboy.o
+lcd_setBrightness   0x4               build/avboy.o
+OSD_BITMAP1_ADDRESS
+                    0x4               build/avboy.o
+halt_device         0x4               build/avboy.o
+evt_getHandler      0x4               build/avboy.o
+rom                 0x18              build/mem.o
+get_timer_status    0x4               build/avboy.o
+truncate            0x4               build/avboy.o
+gfx_planeSetState   0x4               build/avboy.o
+___strtok           0x4               ../../lib/libmedios.a(string.o)
+tickcounter         0x4               build/avboy.o
+gfx_clearScreen     0x4               build/avboy.o
+himask              0x100             build/fastmem.o
+creat               0x4               build/avboy.o
+remove              0x4               build/avboy.o
+set_timer_delay     0x4               build/avboy.o
+rmdir               0x4               build/avboy.o
+readdir             0x4               build/avboy.o
+gfx_drawRect        0x4               build/avboy.o
+reload_firmware     0x4               build/avboy.o
+gfx_planeSetBufferOffset
+                    0x4               build/avboy.o
+lseek               0x4               build/avboy.o
+gfx_setPlane        0x4               build/avboy.o
+float_divsi3        0x4               build/avboy.o
+gfx_drawLine        0x4               build/avboy.o
+gfx_setPalletteRGB  0x4               build/avboy.o
+fb                  0x44              build/avboy.o
+tmr_getTick         0x4               build/avboy.o
+gfx_drawSprite      0x4               build/avboy.o
+pcm                 0x14              build/avboy.o
+gfx_planeGetSize    0x4               build/avboy.o
+btn_readState       0x4               build/avboy.o
+do_realloc          0x4               build/avboy.o
+rename              0x4               build/avboy.o
+gfx_planeSetPos     0x4               build/avboy.o
+DC_isConnected      0x4               build/avboy.o
+write               0x4               build/avboy.o
+filesize            0x4               build/avboy.o
+snd                 0xd4              build/sound.o
+FW_isConnected      0x4               build/avboy.o
+do_bkpt             0x4               build/avboy.o
+gfx_planeGetPos     0x4               build/avboy.o
+read                0x4               build/avboy.o
+rtc_getTime         0x4               build/avboy.o
+gfx_fontSet         0x4               build/avboy.o
+udelay              0x4               build/avboy.o
+gfx_openGraphics    0x4               build/avboy.o
+gfx_scrollWindowHoriz
+                    0x4               build/avboy.o
+gfx_scrollWindowVert
+                    0x4               build/avboy.o
+rtc                 0x30              build/rtc.o
+get_timer_delay     0x4               build/avboy.o
+gfx_fillRect        0x4               build/avboy.o
+float_umodsi3       0x4               build/avboy.o
+opendir             0x4               build/avboy.o
+evt_getFullStatus   0x4               build/avboy.o
+evt_getStatus       0x4               build/avboy.o
+getResolution       0x4               build/avboy.o
+usb_isConnected     0x4               build/avboy.o
+gfx_getPlane        0x4               build/avboy.o
+evt_freeHandler     0x4               build/avboy.o
+buf                 0x1000            build/save.o
+fsync               0x4               build/avboy.o
+gfx_fontGet         0x4               build/avboy.o
+ram                 0x8108            build/mem.o
+getArch             0x4               build/avboy.o
+set_timer_status    0x4               build/avboy.o
+gfx_planeGetBufferOffset
+                    0x4               build/avboy.o
+batLevel            0x4               build/avboy.o
+gfx_getStringSize   0x4               build/avboy.o
+open                0x4               build/avboy.o
+gfx_planeIsShown    0x4               build/avboy.o
+float_modsi3        0x4               build/avboy.o
+gfx_planeSetSize    0x4               build/avboy.o
+float_udivsi3       0x4               build/avboy.o
+closedir            0x4               build/avboy.o
+rtc_setTime         0x4               build/avboy.o
+lcd_getBrightness   0x4               build/avboy.o
+gfx_planeHide       0x4               build/avboy.o
+gfx_readPixel       0x4               build/avboy.o
+float_divdi3        0x4               build/avboy.o
+gfx_closeGraphics   0x4               build/avboy.o
+mkdir               0x4               build/avboy.o
+close               0x4               build/avboy.o
+free                0x4               build/avboy.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+DRAM             0x03000000         0x01000000
+IRAM             0x00000004         0x000077fc
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/avboy.o
+LOAD build/cpu.o
+LOAD build/emu.o
+LOAD build/fastmem.o
+LOAD build/hw.o
+LOAD build/inflate.o
+LOAD build/lcd.o
+LOAD build/lcdc.o
+LOAD build/loader.o
+LOAD build/mem.o
+LOAD build/menu.o
+LOAD build/palette.o
+LOAD build/pcm.o
+LOAD build/refresh.o
+LOAD build/rtc.o
+LOAD build/save.o
+LOAD build/sound.o
+LOAD build/split.o
+LOAD ../../lib/apps_start.o
+LOAD ../../lib/apps_stop.o
+LOAD ../../lib/libmedios.a
+
+.text           0x03000000     0xbfd0
+ *(.text.init)
+ *(.text)
+ .text          0x03000000      0x714 build/avboy.o
+                0x030002e8                vid_settitle
+                0x03000648                sys_elapsed
+                0x030006d0                sys_initpath
+                0x03000684                sys_sleep
+                0x030002c8                vid_close
+                0x030002c4                vid_end
+                0x03000334                doevents
+                0x03000208                vid_init
+                0x03000710                drawProgress
+                0x030006f0                sys_sanitize
+                0x030006b0                sys_checkdir
+                0x03000620                sys_timer
+                0x030001e8                vid_preinit
+                0x03000270                vid_begin
+                0x03000000                app_main
+                0x03000308                vid_setpal
+ .text          0x03000714     0x2cd8 build/cpu.o
+                0x030007a0                cb_switch
+                0x03000714                cpu_reset
+ .text          0x030033ec       0x5c build/emu.o
+                0x030033ec                emu_init
+                0x030033f0                emu_reset
+ .text          0x03003448       0x74 build/hw.o
+                0x03003448                hw_reset
+ .text          0x030034bc     0x1140 build/inflate.o
+                0x030044b8                unzip
+ .text          0x030045fc      0xf48 build/loader.o
+                0x03005270                loader_init
+                0x03005044                rtc_load
+                0x03004eb4                state_load
+                0x03004888                rom_load
+                0x030050b0                loader_unload
+                0x03005260                cleanup
+                0x03004fd8                rtc_save
+                0x03004be8                sram_load
+                0x03004cdc                sram_save
+                0x03004dd0                state_save
+ .text          0x03005544      0xde0 build/mem.o
+                0x03006304                mbc_reset
+                0x03005544                mem_updatemap
+                0x03005708                ioreg_write
+                0x03005e78                mbc_write
+                0x03006104                mem_write
+ .text          0x03006324     0x1480 build/menu.o
+                0x03006324                do_user_menu
+                0x030072c8                browser
+ .text          0x030077a4      0x2e8 build/palette.o
+                0x03007988                pal_release
+                0x0300784c                pal_lock
+                0x030079a8                pal_expire
+                0x03007878                pal_getcolor
+                0x030079d8                pal_set332
+ .text          0x03007a8c       0x5c build/pcm.o
+                0x03007ac8                pcm_close
+                0x03007ab0                pcm_submit
+                0x03007a8c                pcm_init
+ .text          0x03007ae8      0x2d8 build/refresh.o
+                0x03007d84                refresh_4_4x
+                0x03007b14                refresh_3
+                0x03007ce0                refresh_4_3x
+                0x03007d18                refresh_3_4x
+                0x03007bbc                refresh_3_2x
+                0x03007c80                refresh_3_3x
+                0x03007b54                refresh_4
+                0x03007c10                refresh_4_2x
+                0x03007b84                refresh_2_2x
+                0x03007c44                refresh_2_3x
+                0x03007ae8                refresh_2
+ .text          0x03007dc0      0x25c build/rtc.o
+                0x03007e34                rtc_write
+                0x03007dc0                rtc_latch
+                0x03008018                rtc_load_internal
+                0x03008014                rtc_save_internal
+                0x03007f60                rtc_tick
+ .text          0x0300801c      0x668 build/save.o
+                0x0300801c                loadstate
+                0x03008390                savestate
+ .text          0x03008684      0xe4c build/sound.o
+                0x030089e8                sound_reset
+                0x0300908c                s2_init
+                0x03008aa4                sound_mix
+                0x03008ff0                sound_read
+                0x0300900c                s1_init
+                0x03009150                s4_init
+                0x030091b0                sound_write
+                0x030087ec                sound_dirty
+                0x03008900                sound_off
+                0x030090f4                s3_init
+ .text          0x030094d0      0x15c build/split.o
+                0x030094d0                splitnext
+                0x030095c0                splitline
+ .text          0x0300962c       0x50 ../../lib/apps_start.o
+                0x0300966c                .SavSP
+                0x0300962c                _start
+ .text          0x0300967c       0x1c ../../lib/apps_stop.o
+                0x0300967c                exit
+ .text          0x03009698      0x9a0 ../../lib/libmedios.a(api.o)
+                0x03009708                __divdi3
+                0x03009720                malloc
+                0x030096f0                __udivsi3
+                0x030096c0                __umodsi3
+                0x03009698                api_getFctPtr
+                0x03009758                ini_api
+                0x0300973c                realloc
+                0x030096d8                __divsi3
+                0x030096a8                __modsi3
+ .text          0x0300a038      0x230 ../../lib/libmedios.a(random.o)
+                0x0300a1ec                rand
+                0x0300a038                srand
+ *fill*         0x0300a268       0x18 00
+ .text          0x0300a280       0x20 ../../lib/libmedios.a(strchr.o)
+                0x0300a280                strchr
+ .text          0x0300a2a0      0x8a0 ../../lib/libmedios.a(string.o)
+                0x0300a64c                strcpy
+                0x0300aab0                memscan
+                0x0300a958                strtok_r
+                0x0300a2a0                strlwr
+                0x0300a4fc                strncasecmp
+                0x0300a7dc                strnlen
+                0x0300a6a0                strcat
+                0x0300aad4                strstr
+                0x0300a770                strncmp
+                0x0300a66c                strncpy
+                0x0300a468                strcasecmp
+                0x0300aa4c                bcopy
+                0x0300a8d4                strtok
+                0x0300aa78                memcmp
+                0x0300a6d8                strncat
+                0x0300a410                strdup
+                0x0300a740                strcmp
+                0x0300aa14                strsep
+                0x0300a5c0                strnicmp
+                0x0300a2d0                atoi
+                0x0300a81c                strspn
+                0x0300a7b8                strlen
+                0x0300a888                strpbrk
+ .text          0x0300ab40       0x20 ../../lib/libmedios.a(strrchr.o)
+                0x0300ab40                strrchr
+ .text          0x0300ab60     0x1470 ../../lib/libmedios.a(vsprintf.o)
+                0x0300b898                vsprintf
+                0x0300ad2c                simple_strtoll
+                0x0300b878                snprintf
+                0x0300ac0c                simple_strtol
+                0x0300b8cc                vsscanf
+                0x0300b268                vsnprintf
+                0x0300bfb0                sscanf
+                0x0300b8ac                sprintf
+                0x0300ab60                simple_strtoul
+                0x0300ac38                simple_strtoull
+ *(.glue_7t)
+ *(.glue_7)
+
+.rodata         0x0300bfd0     0x1e94
+ *(.rodata)
+ .rodata        0x0300bfd0     0x1140 build/cpu.o
+ .rodata        0x0300d110      0x200 build/fastmem.o
+                0x0300d210                hi_wmap
+                0x0300d110                hi_rmap
+ .rodata        0x0300d310       0x4c build/inflate.o
+ .rodata        0x0300d35c       0x10 build/lcdc.o
+ .rodata        0x0300d36c        0x4 build/menu.o
+ .rodata        0x0300d370       0x10 build/palette.o
+ .rodata        0x0300d380       0x60 build/sound.o
+ .rodata        0x0300d3e0       0x50 ../../lib/libmedios.a(vsprintf.o)
+ *(.rodata.str1.4)
+ .rodata.str1.4
+                0x0300d430       0xae build/avboy.o
+                                 0xb0 (size before relaxing)
+ *fill*         0x0300d4de        0x2 00
+ .rodata.str1.4
+                0x0300d4e0       0x37 build/cpu.o
+                                 0x38 (size before relaxing)
+ *fill*         0x0300d517        0x1 00
+ .rodata.str1.4
+                0x0300d518        0xa build/emu.o
+                                  0xc (size before relaxing)
+ *fill*         0x0300d522        0x2 00
+ .rodata.str1.4
+                0x0300d524      0x165 build/loader.o
+                                0x168 (size before relaxing)
+ *fill*         0x0300d689        0x3 00
+ .rodata.str1.4
+                0x0300d68c      0x32c build/menu.o
+                                0x34c (size before relaxing)
+ .rodata.str1.4
+                0x0300d9b8        0xb build/pcm.o
+                                  0xc (size before relaxing)
+ *fill*         0x0300d9c3        0x1 00
+ .rodata.str1.4
+                0x0300d9c4      0x4a0 ../../lib/libmedios.a(api.o)
+
+.data           0x0300de64     0x2ebc
+ *(.data)
+ .data          0x0300de64       0x28 build/avboy.o
+                0x0300de6c                bt_LEFT
+                0x0300de74                bt_A
+                0x0300de88                frameskip
+                0x0300de70                bt_RIGHT
+                0x0300de80                bt_SELECT
+                0x0300de78                bt_B
+                0x0300de64                bt_UP
+                0x0300de84                bt_MENU
+                0x0300de7c                bt_START
+                0x0300de68                bt_DOWN
+ .data          0x0300de8c      0x200 build/cpu.o
+ .data          0x0300e08c        0x4 build/emu.o
+ .data          0x0300e090      0x170 build/lcd.o
+ .data          0x0300e200     0x140c build/loader.o
+ .data          0x0300f60c       0x60 build/menu.o
+                0x0300f60c                MENU_X
+ .data          0x0300f66c      0x5a0 build/save.o
+                0x0300f66c                svars
+ .data          0x0300fc0c     0x1010 build/sound.o
+ .data          0x03010c1c      0x100 ../../lib/libmedios.a(ctype.o)
+                0x03010c1c                _ctype
+ .data          0x03010d1c        0x4 ../../lib/libmedios.a(random.o)
+ *(.got)
+ *(.got.*)
+                0x03010d20                _real_iram_start = .
+
+.iram           0x00000004     0x5414 load address 0x03010d20
+                0x00000004                _iram_start = .
+ *(.core)
+ .core          0x00000004     0x1fe4 build/cpu.o
+                0x0000003c                timer_advance
+                0x00001fcc                cpu_step
+                0x00000118                sound_advance
+                0x00000174                cpu_idle
+                0x00000004                div_advance
+                0x00000130                cpu_timers
+                0x000000e4                lcdc_advance
+                0x00000250                cpu_emulate
+ .core          0x00001fe8      0x1c4 build/emu.o
+                0x00001fe8                emu_run
+ .core          0x000021ac      0x19c build/fastmem.o
+                0x000021ac                readb
+                0x0000233c                writehi
+                0x000021e8                writeb
+                0x000022a8                writew
+                0x00002228                readw
+                0x00002328                readhi
+ .core          0x00002348      0x380 build/hw.o
+                0x000024f8                hw_hdma
+                0x000026ac                pad_set
+                0x0000240c                hw_hdma_cmd
+                0x00002348                hw_interrupt
+                0x00002688                pad_release
+                0x000025c4                pad_refresh
+                0x00002664                pad_press
+                0x000023c0                hw_dma
+ .core          0x000026c8     0x17bc build/lcd.o
+                0x00002c88                wnd_scan
+                0x00003ccc                pal_write_dmg
+                0x00003248                spr_enum
+                0x00002f44                wnd_scan_pri
+                0x00002e24                bg_scan_pri
+                0x000034b0                spr_scan
+                0x00003770                lcd_refreshline
+                0x00002b28                bg_scan
+                0x00003ca4                pal_write
+                0x000031b4                spr_count
+                0x000030f4                wnd_scan_color
+                0x00003dd4                pal_dirty
+                0x00003d50                vram_write
+                0x00003674                lcd_begin
+                0x00003e50                lcd_reset
+                0x00002850                tilebuf
+                0x000026c8                updatepatpix
+                0x00003020                bg_scan_color
+                0x00003d9c                vram_dirty
+ .core          0x00003e84      0x404 build/lcdc.o
+                0x00003f1c                stat_write
+                0x00003e84                stat_trigger
+                0x00004020                lcdc_trans
+                0x00003fc4                lcdc_change
+ .core          0x00004288      0x32c build/mem.o
+                0x00004288                ioreg_read
+                0x00004368                mem_read
+ .core          0x000045b4       0xe0 build/refresh.o
+                0x00004660                refresh_1_2x
+                0x000045b4                refresh_1
+ .core          0x00004694       0x94 ../../lib/libmedios.a(memcpy.o)
+                0x00004694                memmove
+                0x00004694                memcpy
+ *fill*         0x00004728       0x18 00
+ .core          0x00004740       0xc0 ../../lib/libmedios.a(memset.o)
+                0x00004760                memset
+ *(.cored)
+ .cored         0x00004800      0x340 build/cpu.o
+                0x00004b38                acc
+                0x00004b3c                b
+                0x00004b00                cpu
+                0x00004b3e                w
+                0x00004800                cycles_table
+                0x00004a00                zflag_table
+                0x00004900                cb_cycles_table
+ .cored         0x00004b40       0x10 build/hw.o
+                0x00004b40                hw
+ .cored         0x00004b50      0x8c8 build/lcd.o
+                0x00004b58                lcd
+                0x00004cd8                scan
+                0x00005418                _iram_end = .
+
+.bss            0x03010d20    0x80344 load address 0x03010d20
+                0x03010d20                _bss_start = .
+ *(.bss)
+ .bss           0x03010d20        0x8 build/avboy.o
+                0x03010d20                framenum
+                0x03010d24                oldbt
+ .bss           0x03010d28        0x4 build/emu.o
+ .bss           0x03010d2c     0x8004 build/inflate.o
+ .bss           0x03018d30    0x40508 build/lcd.o
+ .bss           0x03059238       0x34 build/loader.o
+ .bss           0x0305926c       0x18 build/menu.o
+                0x03059274                TVInt
+                0x03059280                ZoomX
+                0x0305926c                TVState
+                0x03059278                ARMFreq
+                0x03059270                TVStd
+                0x0305927c                RotScreen
+ .bss           0x03059284    0x29504 build/palette.o
+ .bss           0x03082788       0x24 build/save.o
+ .bss           0x030827ac      0x9c8 ../../lib/libmedios.a(random.o)
+                0x03083174                _bss_end = ALIGN (0x4)
+ *fill*         0x03083174        0xc 00
+ COMMON         0x03083180     0x4ac4 build/avboy.o
+                                  0x0 (size before relaxing)
+                0x03083180                gfx_drawPixel
+                0x030831a0                gfx_putC
+                0x030831c0                mdelay
+                0x030831e0                gfx_putS
+                0x030831e8                lcd_vbank
+                0x03087200                gfx_planeGetState
+                0x03087220                printf
+                0x03087240                gfx_drawBitmap
+                0x03087260                gfx_planeShow
+                0x03087280                do_malloc
+                0x030872a0                lcd_setBrightness
+                0x030872c0                OSD_BITMAP1_ADDRESS
+                0x030872e0                halt_device
+                0x03087300                evt_getHandler
+                0x03087320                get_timer_status
+                0x03087340                truncate
+                0x03087360                gfx_planeSetState
+                0x03087380                tickcounter
+                0x030873a0                gfx_clearScreen
+                0x030873c0                creat
+                0x030873e0                remove
+                0x03087400                set_timer_delay
+                0x03087420                rmdir
+                0x03087440                readdir
+                0x03087460                gfx_drawRect
+                0x03087480                reload_firmware
+                0x030874a0                gfx_planeSetBufferOffset
+                0x030874c0                lseek
+                0x030874e0                gfx_setPlane
+                0x03087500                float_divsi3
+                0x03087520                gfx_drawLine
+                0x03087540                gfx_setPalletteRGB
+                0x03087560                fb
+                0x030875c0                tmr_getTick
+                0x030875e0                gfx_drawSprite
+                0x03087600                pcm
+                0x03087620                gfx_planeGetSize
+                0x03087640                btn_readState
+                0x03087660                do_realloc
+                0x03087680                rename
+                0x030876a0                gfx_planeSetPos
+                0x030876c0                DC_isConnected
+                0x030876e0                write
+                0x03087700                filesize
+                0x03087720                FW_isConnected
+                0x03087740                do_bkpt
+                0x03087760                gfx_planeGetPos
+                0x03087780                read
+                0x030877a0                rtc_getTime
+                0x030877c0                gfx_fontSet
+                0x030877e0                udelay
+                0x03087800                gfx_openGraphics
+                0x03087820                gfx_scrollWindowHoriz
+                0x03087840                gfx_scrollWindowVert
+                0x03087860                get_timer_delay
+                0x03087880                gfx_fillRect
+                0x030878a0                float_umodsi3
+                0x030878c0                opendir
+                0x030878e0                evt_getFullStatus
+                0x03087900                evt_getStatus
+                0x03087920                getResolution
+                0x03087940                usb_isConnected
+                0x03087960                gfx_getPlane
+                0x03087980                evt_freeHandler
+                0x030879a0                fsync
+                0x030879c0                gfx_fontGet
+                0x030879e0                getArch
+                0x03087a00                set_timer_status
+                0x03087a20                gfx_planeGetBufferOffset
+                0x03087a40                batLevel
+                0x03087a60                gfx_getStringSize
+                0x03087a80                open
+                0x03087aa0                gfx_planeIsShown
+                0x03087ac0                float_modsi3
+                0x03087ae0                gfx_planeSetSize
+                0x03087b00                float_udivsi3
+                0x03087b20                closedir
+                0x03087b40                rtc_setTime
+                0x03087b60                lcd_getBrightness
+                0x03087b80                gfx_planeHide
+                0x03087ba0                gfx_readPixel
+                0x03087bc0                float_divdi3
+                0x03087be0                gfx_closeGraphics
+                0x03087c00                mkdir
+                0x03087c20                close
+                0x03087c40                free
+ *fill*         0x03087c44        0x4 00
+ COMMON         0x03087c48      0x100 build/fastmem.o
+                                  0x0 (size before relaxing)
+                0x03087c48                himask
+ *fill*         0x03087d48       0x18 00
+ COMMON         0x03087d60     0x81c8 build/mem.o
+                                  0x0 (size before relaxing)
+                0x03087d60                mbc
+                0x03087e00                rom
+                0x03087e20                ram
+ *fill*         0x0308ff28       0x18 00
+ COMMON         0x0308ff40       0x30 build/rtc.o
+                                  0x0 (size before relaxing)
+                0x0308ff40                rtc
+ COMMON         0x0308ff70     0x1000 build/save.o
+                                  0x0 (size before relaxing)
+                0x0308ff70                buf
+ *fill*         0x03090f70       0x10 00
+ COMMON         0x03090f80       0xd4 build/sound.o
+                                  0x0 (size before relaxing)
+                0x03090f80                snd
+ *fill*         0x03091054        0xc 00
+ COMMON         0x03091060        0x4 ../../lib/libmedios.a(string.o)
+                                  0x0 (size before relaxing)
+                0x03091060                ___strtok
+
+.common         0x03091064        0x0
+ *(.common)
+                0x03091064                _end_kernel = .
+OUTPUT(aoboy.med elf32-littlearm)
+
+.comment        0x00000000      0x19e
+ .comment       0x00000000       0x12 build/avboy.o
+ .comment       0x00000012       0x12 build/cpu.o
+ .comment       0x00000024       0x12 build/emu.o
+ .comment       0x00000036       0x12 build/fastmem.o
+ .comment       0x00000048       0x12 build/hw.o
+ .comment       0x0000005a       0x12 build/inflate.o
+ .comment       0x0000006c       0x12 build/lcd.o
+ .comment       0x0000007e       0x12 build/lcdc.o
+ .comment       0x00000090       0x12 build/loader.o
+ .comment       0x000000a2       0x12 build/mem.o
+ .comment       0x000000b4       0x12 build/menu.o
+ .comment       0x000000c6       0x12 build/palette.o
+ .comment       0x000000d8       0x12 build/pcm.o
+ .comment       0x000000ea       0x12 build/refresh.o
+ .comment       0x000000fc       0x12 build/rtc.o
+ .comment       0x0000010e       0x12 build/save.o
+ .comment       0x00000120       0x12 build/sound.o
+ .comment       0x00000132       0x12 build/split.o
+ .comment       0x00000144       0x12 ../../lib/libmedios.a(api.o)
+ .comment       0x00000156       0x12 ../../lib/libmedios.a(ctype.o)
+ .comment       0x00000168       0x12 ../../lib/libmedios.a(random.o)
+ .comment       0x0000017a       0x12 ../../lib/libmedios.a(string.o)
+ .comment       0x0000018c       0x12 ../../lib/libmedios.a(vsprintf.o)

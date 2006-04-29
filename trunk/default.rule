@@ -1,0 +1,41 @@
+subdirs:        
+	@@for p in $(SUBDIRS); do \
+		echo '-----   building ' $$p; \
+		make -C $$p --no-print-directory -s all; \
+		echo '-----   end      ' $$p; \
+	done
+
+subdirs_lib:        
+	@@for p in $(SUBDIRS); do \
+		echo '-----   building ' $$p; \
+		make -C $$p --no-print-directory -s kernel_lib; \
+		echo '-----   end      ' $$p; \
+	done        
+        
+clean-subdirs:
+	@@for p in $(SUBDIRS); do \
+		echo '-----   cleaning ' $$p; \
+		make -C $$p --no-print-directory clean; \
+	done
+
+.c.o:
+	@echo "[$@]"
+	@$(GCC) $(GCCFLAGS) -c -o $@ $<
+        
+.cpp.o:
+	@echo "[$@]"
+	@$(GCC) $(GCCFLAGS) -c -o $@ $<
+        
+.S.o:
+	@echo "[$@]"
+	@$(AS) $(ASFLAGS) -o $@ $<
+
+ifeq ("$(TARGET_DEVICE)","GMINI4XX")        
+%.wav: %.bin tools/bin2wav/bin2wav
+	@echo "[$@]"
+	@tools/bin2wav/bin2wav $< tools/bin2wav/400loader.bin.wav $@
+	@echo "End"
+else
+%.wav:
+	@echo "End"
+endif
